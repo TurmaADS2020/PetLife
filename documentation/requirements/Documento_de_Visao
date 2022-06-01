@@ -1,1 +1,138 @@
 Documento de Visão
+PetLife
+
+1. Introdução
+“O objetivo deste documento é a coleta, análise e definição das necessidades e funcionalidades do projeto Pet Life em alto nível de abstração. O foco deste documento é identificar as necessidades dos stakeholders (partes interessadas) e usuários-alvo e a importância delas existirem. O detalhamento de como o Pet Life vai suprir essas necessidades será realizado nas especificações de casos de uso e especificações suplementares.”
+
+1.1 Visão Estratégica
+Este APP Pet Life tem como objetivo aproximar Ongs doadoras de Pets com pessoas que queiram adotar um animal, seja ele, cachorro, gato, pássaro, etc.
+
+1.2 Escopo
+Cadastrar de maneira rápida, fácil e segura as Ongs doadoras, podendo cada Ong postar fotos e dados dos pets que estarão disponíveis para doação. Os dados do doador e do Pet ficarão visíveis para o cliente efetuar a melhor escolha para sua adoção. Serão desenvolvidas apenas funcionalidades que atenderão a primeira versão do sistema. São elas:
+
+1.2.0 Página Inicial
+Ao abrir o aplicativo o usuário deverá ter a visibilidade dos seguintes itens:
+   * Logo do Aplicativo;
+   * Campo para poder digitar o login;
+   * Campo para poder digitar a senha;
+   * Opção para se cadastrar;
+   * Opção para solicitar reset de senha;
+   * Opção para o usuário manter-se conectado no aplicativo.
+
+1.2.1 Tela de cadastro de usuário pessoas física e jurídica
+Ao abrir o aplicativo o usuário deverá ter a visibilidade dos seguintes itens:
+   * Logo do Aplicativo;
+   * Campo para digitar o nome completo do usuário;
+   * Campo para o usuário digitar o e-mail pessoal ou corporativo;
+   * Campo para digitar o CPF ou CNPJ do usuário;
+   * Campo para digitar a senha do usuário;
+   * Campo para digitar o telefone;
+   * Campo para digitar o CEP e endereço completo;
+   * Campo para carregar documentos de anexos;
+   * Aceite o Termo de uso (após realizar a leitura).
+   * Validação Scarface;
+   * Validação do e-mail.
+
+1.2.3 Página após logado
+Ao abrir o aplicativo o usuário deverá ter a visibilidade dos seguintes itens:
+   * Barra de pesquisa
+   * Filtro com as seguintes opções (Busca por região, animais e cidade)
+   * Div com publicações onde ira conter 
+   * Botão de contato com redirecionamento para o whats app
+   * Menu
+
+1.2.4 Barra de Pesquisa
+Ao abrir a pesquisa no aplicativo o usuário deverá ter a visibilidade dos seguintes itens:
+   * Barra de pesquisa;
+   * Resultados em bloco;
+   * Foto do Animal;
+   * Informações Resumidas;
+   * Botão de Perfil - Usuário;
+   * Botão de Início;
+   * Botão de Perfil - Animal;
+
+1.2.5 Página de Informações do Animal
+Ao abrir o bloco do animal, no aplicativo, o usuário deverá ter a visibilidade dos seguintes itens:
+   * Barra de pesquisa;
+   * Carrossel de Fotos do Animal;
+   * Informações Detalhadas;
+   * Botão para Chat;
+   * Botão de Perfil - Usuário;
+   * Botão de Início;
+   * Botão de Perfil - Animal;
+
+1.2.6 Página de Chat
+Ao abrir o bloco do animal, no aplicativo, o usuário deverá ter a visibilidade dos seguintes itens:
+   * Barra de pesquisa;
+   * Bloco superior com foto miniatura e Nome;
+   * Painel de mensagens;
+   * Bloco para inserir texto;
+   * Botão para enviar mensagem;
+   * Botão de Perfil - Usuário;
+   * Botão de Início;
+   * Botão de Perfil - Animal;
+
+1.2.7 Página de Perfil do Usuário
+Ao abrir o bloco do perfil de usuário, no aplicativo, o usuário deverá ter a visibilidade dos seguintes itens:
+   * Bloco com informações gravadas no sistema;
+   * Botão Editar Informações;
+   * Botão Salvar Informações;
+   * Botão de Perfil - Usuário;
+   * Botão de Início;
+   * Botão de Perfil - Animal;
+
+1.2.8 Página de Perfil do Animal
+Ao abrir o bloco de perfil do animal, no aplicativo, o usuário deverá ter a visibilidade dos seguintes itens:
+   * Bloco com informações gravadas no sistema;
+   * Bloco com a foto atual do animal;
+   * Botão para inserir/alterar foto;
+   * Botão Salvar Informações;
+   * Botão de Perfil - Usuário;
+   * Botão de Início;
+   * Botão de Perfil - Animal;
+
+1.2.9 Página de Login do usuário
+Ao abrir o perfil do usuário, se o mesmo não estiver autenticado no aplicativo, o usuário deverá ter a visibilidade dos seguintes itens:
+   * Logo do Aplicativo;
+   * Bloco com campo para login e senha;
+   * Botão entrar no sistema;
+   * Botão esqueceu a senha;
+   * Botão Registro no sistema;
+   * Botão de Perfil - Usuário;
+   * Botão de Início;
+   * Botão de Perfil - Animal;
+
+1.2.10 Página de reset de senha do usuário
+Ao abrir o perfil do usuário, se o mesmo não estiver autenticado no aplicativo, o usuário deverá ter a visibilidade dos seguintes itens:
+   * Logo do Aplicativo;
+   * Bloco com campo para e-mail;
+   * Botão envio de senha no e-mail;
+   * Botão de Perfil - Usuário;
+   * Botão de Início;
+   * Botão de Perfil - Animal;
+
+1.2.11 Página de Registro do usuário
+Ao abrir o perfil do usuário, se o mesmo não estiver autenticado no aplicativo, o usuário deverá ter a visibilidade dos seguintes itens:
+   * Logo do Aplicativo;
+   * Bloco Informações necessárias de registro;
+   * Botão criar perfil;
+   * Botão de Perfil - Usuário;
+   * Botão de Início;
+   * Botão de Perfil - Animal;
+
+1.3 Definições e Abreviaturas
+Vide Glossário do projeto.
+
+1.4 Referências
+
+2. Posicionamento
+2.1 Benefícios do Projeto
+A adoção é extremamente importante para a sociedade e é capaz de salvar a vida de um animal que poderia estar nas ruas, abandonado, morrendo de fome e possivelmente sofrendo de maus tratos.
+   * Tutores de cachorros são menos sedentários.
+   * Cachorros diminuem a incidência de depressão em idosos.
+   * O gato auxilia na comunicação com crianças autistas.
+
+2.2 Descrição do Problema
+O abandono de animais traz problemas de saúde pública e ambiental afetando toda a sociedade brasileira, ocasionando principalmente a proliferação de zoonoses, ataques a pedestres e condutores devido à agressividade dos animais abandonados e a legislação em defesa dos animais. O abandono de animais no Brasil é um problema alarmante que atinge o todo, pois além de prejudicar o próprio animal, a sociedade também acaba sendo exposta ao perigo. O que precisa ser revisto e colocado em prática seriam políticas públicas e privadas que promovam medidas de conscientização da guarda responsável e dos problemas de saúde pública e ambiental ocasionados pelo abandono. Além de campanhas de castração de animais em massa e de baixo custo a fim de controlar a população de caninos e felinos.
+
+
