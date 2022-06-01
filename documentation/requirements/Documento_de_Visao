@@ -135,4 +135,21 @@ A adoção é extremamente importante para a sociedade e é capaz de salvar a vi
 2.2 Descrição do Problema
 O abandono de animais traz problemas de saúde pública e ambiental afetando toda a sociedade brasileira, ocasionando principalmente a proliferação de zoonoses, ataques a pedestres e condutores devido à agressividade dos animais abandonados e a legislação em defesa dos animais. O abandono de animais no Brasil é um problema alarmante que atinge o todo, pois além de prejudicar o próprio animal, a sociedade também acaba sendo exposta ao perigo. O que precisa ser revisto e colocado em prática seriam políticas públicas e privadas que promovam medidas de conscientização da guarda responsável e dos problemas de saúde pública e ambiental ocasionados pelo abandono. Além de campanhas de castração de animais em massa e de baixo custo a fim de controlar a população de caninos e felinos.
 
+3. Descrição dos Usuários
 
+3.1 Usuários Envolvidos no Projeto
+
+3.2 Ambiente do Usuários
+
+4. Priorização das Necessidades
+
+5. Perspectiva do Produto
+Esta seção descreve a visão geral das características do projeto PetLife (textual e gráfica), expressando relação entre funcionalidades e interfaces com as aplicações
+
+5.1 Perspectiva do Produto
+O projeto consiste no desenvolvimento de um aplicativo com a finalidade de divulgação de produtos e serviços, tais como parceiros, entre outros. Mas o principal objetivo é atrair futuros clientes a se tornarem conveniados, associados, doadores e parceiros de modo fácil, rápido e seguro através da plataforma , interligando esses dados com o sistema da PetLife.
+
+Suposições e Dependências
+Lista cada um dos fatores que afetam os recursos que o documento de visão inclui. Lista as suposições que, se modificadas, alteraram o documento de visão. Por exemplo, uma suposição pode indicar que um sistema operacional específico fique disponível para o hardware designado para o produto de software. Se o sistema operacional não estiver disponível, será necessário alterar o documento de visão.
+
+imagem: PetLife/documentation/images/suposicoes_dependencias.png
