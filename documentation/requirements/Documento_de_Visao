@@ -153,3 +153,31 @@ Suposições e Dependências
 Lista cada um dos fatores que afetam os recursos que o documento de visão inclui. Lista as suposições que, se modificadas, alteraram o documento de visão. Por exemplo, uma suposição pode indicar que um sistema operacional específico fique disponível para o hardware designado para o produto de software. Se o sistema operacional não estiver disponível, será necessário alterar o documento de visão.
 
 imagem: documentation/images/suposicoes_dependencias.png
+
+5.2 Licença e Instalaçao
+
+6. Caracteristicas Funcionais
+Esta seção define e descreve as características funcionais do PetLife. As características funcionais são capacidades necessárias ao sistema para que o mesmo possa atender a demanda funcional do usuário.
+
+6.1 Cadastro
+
+Intervenção
+Descrição: O sistema deve permitir que uma ONG e um usuário faça os devidos cadastros. Na conclusão dos cadastros, o sistema deverá permitir a entrada da ONG e dos Usuários.Para que assim a ONG possa cadastrar os Pets que residem em sua estádia. E os Usuários ficaram disponíveis para poder adotar os Pets.
+
+6.1.1 Funcionalidade: Cadastro
+
+6.1.2 Operação: Solicitação de Cadastro de usuário
+6.1.2.1 Impacto: Criação
+
+6.1.3 Operação: Cancelamento de Cadastro de usuário
+6.1.3.1 Impacto: Exclusão
+
+6.1.4 Operação: Solicitação de Cadastro da ONG
+6.1.4.1 Impacto: Criação
+
+6.1.5 Operação: Cancelamento de Cadastro dos ONG
+6.1.5.1 Impacto: Exclusão
+
+6.2 Fotos dos Pet
+Intervesão
+Descrição: Fotos dos Pets que as ONG's cadastradas terão que adicionar para uma, melhor visualização do usuário que irá decidir adotar. E irá ter fotos para monitoramento dos Pets.
