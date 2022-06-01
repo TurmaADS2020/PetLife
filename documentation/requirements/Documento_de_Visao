@@ -167,17 +167,37 @@ Descrição: O sistema deve permitir que uma ONG e um usuário faça os devidos 
 6.1.1 Funcionalidade: Cadastro
 
 6.1.2 Operação: Solicitação de Cadastro de usuário
+
 6.1.2.1 Impacto: Criação
 
 6.1.3 Operação: Cancelamento de Cadastro de usuário
+
 6.1.3.1 Impacto: Exclusão
 
 6.1.4 Operação: Solicitação de Cadastro da ONG
+
 6.1.4.1 Impacto: Criação
 
 6.1.5 Operação: Cancelamento de Cadastro dos ONG
+
 6.1.5.1 Impacto: Exclusão
 
 6.2 Fotos dos Pet
 Intervesão
 Descrição: Fotos dos Pets que as ONG's cadastradas terão que adicionar para uma, melhor visualização do usuário que irá decidir adotar. E irá ter fotos para monitoramento dos Pets.
+
+6.2.1 Funcionalidade
+
+6.2.1.1
+Intervenção
+Descrição: O sistema deve permitir que uma empresa interventora efetue uma solicitação de intervenção. Na conclusão da solicitação o sistema deve gerar lacre eletrônico do equipamento que sofrerá intervenção, podendo esta solicitação ser consultada e/ou cancelada.
+Funcionalidade: Intervenção
+Operação: Solicitação de Intervenção
+Impacto: Criação
+Operação: Cancelamento de Intervenção
+Impacto: Criação
+
+7. Características Não-Funcionais
+
+8. Aprovação
+
