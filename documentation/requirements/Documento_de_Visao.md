@@ -128,6 +128,10 @@ Vide Glossário do projeto.
 |-------------------------------|---------------|-----|--------------|
 |Dispõe sobre a reprodução, criação, vendas, compra e doação de animais de estimação em estabelecimentos comerciais e assemelhados, no âmbito do Estado de Mato Grosso, e dá outras providências. Lei Nº 11441 de 01/07/2021|01/07/2021, Publicado no DOE - MT em 2 jul 2021| Assembléia Legislativa do Estado de Mato Grosso|Em Vigência|
 
+|Legislação Estadual de Mato Grosso(1)| | | |
+|A Lei Federal de Crimes Ambientais 9.605/98, em seu artigo 32, Cap. V condena todos aquele que "Praticar ato de abuso e maus-tratos à animais domésticos ou domesticados, silvestres, nativos ou exóticos", com pena de detenção de três meses a um ano, e multa (a pena é aumentada de um sexto a um terço se ocorre morte do animal). Lei Nº 9.605, de 12 de fevereiro de 1998(1)|12 de fevereiro de 1998|Lei Federal|Em Vigência|
+>Legenda de Situação:(1) Referência existente; (2) Referência existente, mas com necessidade de atualização; (3) Referência deve ser criada sob demanda deste projeto.
+
 ## 2. Posicionamento
 ### 2.1 Benefícios do Projeto
 A adoção é extremamente importante para a sociedade e é capaz de salvar a vida de um animal que poderia estar nas ruas, abandonado, morrendo de fome e possivelmente sofrendo de maus tratos.
@@ -141,6 +145,10 @@ O abandono de animais traz problemas de saúde pública e ambiental afetando tod
 ## 3. Descrição dos Usuários
 
 ### 3.1 Usuários Envolvidos no Projeto
+|Papel na Organização|Entidade Representada/Descrição das Atividades|Papel no Projeto/Papel que o representa no Projeto|
+|--------------------|----------------------------------------------|--------------------------------------------------|
+|Unir ongs doadoras de pets com interessados a criação deles|Como contexto, facilitar a adoção e dominuir a alta de pets sem lar à qual as ongs acolhem|Ajudar ongs credenciadas e criar novas conexões entre os pets e nós seres humanos|
+|Doação de animais|Criação de cadastro e escolha como doador ou donatário|Usuário envolvido no projeto que representa este usuário Cliente|
 
 ### 3.2 Ambiente do Usuários
 
@@ -155,7 +163,7 @@ O projeto consiste no desenvolvimento de um aplicativo com a finalidade de divul
 Suposições e Dependências
 Lista cada um dos fatores que afetam os recursos que o documento de visão inclui. Lista as suposições que, se modificadas, alteraram o documento de visão. Por exemplo, uma suposição pode indicar que um sistema operacional específico fique disponível para o hardware designado para o produto de software. Se o sistema operacional não estiver disponível, será necessário alterar o documento de visão.
 
-imagem: documentation/images/suposicoes_dependencias.png
+![](documentation/images/suposicoes_dependencias.png)
 
 ### 5.2 Licença e Instalaçao
 
