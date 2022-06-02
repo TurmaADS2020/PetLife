@@ -162,7 +162,7 @@ O projeto consiste no desenvolvimento de um aplicativo com a finalidade de divul
 Suposições e Dependências
 Lista cada um dos fatores que afetam os recursos que o documento de visão inclui. Lista as suposições que, se modificadas, alteraram o documento de visão. Por exemplo, uma suposição pode indicar que um sistema operacional específico fique disponível para o hardware designado para o produto de software. Se o sistema operacional não estiver disponível, será necessário alterar o documento de visão.
 
-<img src="https://raw.githubusercontent.com/TurmaADS2020/PetLife/main/documentation/images/suposicoes_dependencias.png" height="500" width="500">
+<img src="https://raw.githubusercontent.com/TurmaADS2020/PetLife/main/documentation/images/attachment/suposicoes_dependencias.png" height="500" width="500">
 
 ### 5.2 Licença e Instalaçao
 
