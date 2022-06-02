@@ -2,7 +2,7 @@
 ## PetLife
 
 ## 1. Introdução
-“O objetivo deste documento é a coleta, análise e definição das necessidades e funcionalidades do projeto Pet Life em alto nível de abstração. O foco deste documento é identificar as necessidades dos stakeholders (partes interessadas) e usuários-alvo e a importância delas existirem. O detalhamento de como o Pet Life vai suprir essas necessidades será realizado nas especificações de casos de uso e especificações suplementares.”
+*Itálico* “O objetivo deste documento é a coleta, análise e definição das necessidades e funcionalidades do projeto Pet Life em alto nível de abstração. O foco deste documento é identificar as necessidades dos stakeholders (partes interessadas) e usuários-alvo e a importância delas existirem. O detalhamento de como o Pet Life vai suprir essas necessidades será realizado nas especificações de casos de uso e especificações suplementares.”
 
 ### 1.1 Visão Estratégica
 Este APP Pet Life tem como objetivo aproximar Ongs doadoras de Pets com pessoas que queiram adotar um animal, seja ele, cachorro, gato, pássaro, etc.
