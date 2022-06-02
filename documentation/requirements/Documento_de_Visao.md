@@ -2,7 +2,7 @@
 ## PetLife
 
 ## 1. Introdução
-*“O objetivo deste documento é a coleta, análise e definição das necessidades e funcionalidades do projeto Pet Life em alto nível de abstração. O foco deste documento é identificar as necessidades dos stakeholders (partes interessadas) e usuários-alvo e a importância delas existirem. O detalhamento de como o Pet Life vai suprir essas necessidades será realizado nas especificações de casos de uso e especificações suplementares.”*
+“O objetivo deste documento é a coleta, análise e definição das necessidades e funcionalidades do projeto Pet Life em alto nível de abstração. O foco deste documento é identificar as necessidades dos stakeholders (partes interessadas) e usuários-alvo e a importância delas existirem. O detalhamento de como o Pet Life vai suprir essas necessidades será realizado nas especificações de casos de uso e especificações suplementares.”
 
 ### 1.1 Visão Estratégica
 Este APP Pet Life tem como objetivo aproximar Ongs doadoras de Pets com pessoas que queiram adotar um animal, seja ele, cachorro, gato, pássaro, etc.
@@ -124,6 +124,9 @@ Ao abrir o perfil do usuário, se o mesmo não estiver autenticado no aplicativo
 Vide Glossário do projeto.
 
 ### 1.4 Referências
+|Nome do Documento de Referência|Data de Criação|Autor|Situação Atual|
+|-------------------------------|---------------|-----|--------------|
+|Dispõe sobre a reprodução, criação, vendas, compra e doação de animais de estimação em estabelecimentos comerciais e assemelhados, no âmbito do Estado de Mato Grosso, e dá outras providências. Lei Nº 11441 de 01/07/2021|01/07/2021, Publicado no DOE - MT em 2 jul 2021| Assembléia Legislativa do Estado de Mato Grosso|Em Vigência|
 
 ## 2. Posicionamento
 ### 2.1 Benefícios do Projeto
