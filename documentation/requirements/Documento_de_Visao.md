@@ -1,25 +1,27 @@
-Documento de Visão
-PetLife
+# Documento de Visão
+## PetLife
 
-1. Introdução
+## 1. Introdução
 “O objetivo deste documento é a coleta, análise e definição das necessidades e funcionalidades do projeto Pet Life em alto nível de abstração. O foco deste documento é identificar as necessidades dos stakeholders (partes interessadas) e usuários-alvo e a importância delas existirem. O detalhamento de como o Pet Life vai suprir essas necessidades será realizado nas especificações de casos de uso e especificações suplementares.”
 
-1.1 Visão Estratégica
+### 1.1 Visão Estratégica
 Este APP Pet Life tem como objetivo aproximar Ongs doadoras de Pets com pessoas que queiram adotar um animal, seja ele, cachorro, gato, pássaro, etc.
 
-1.2 Escopo
+### 1.2 Escopo
 Cadastrar de maneira rápida, fácil e segura as Ongs doadoras, podendo cada Ong postar fotos e dados dos pets que estarão disponíveis para doação. Os dados do doador e do Pet ficarão visíveis para o cliente efetuar a melhor escolha para sua adoção. Serão desenvolvidas apenas funcionalidades que atenderão a primeira versão do sistema. São elas:
 
-1.2.0 Página Inicial
+### 1.2.0 Página Inicial
 Ao abrir o aplicativo o usuário deverá ter a visibilidade dos seguintes itens:
-   * Logo do Aplicativo;
-   * Campo para poder digitar o login;
-   * Campo para poder digitar a senha;
-   * Opção para se cadastrar;
-   * Opção para solicitar reset de senha;
-   * Opção para o usuário manter-se conectado no aplicativo.
+<ul>
+   <li>Logo do Aplicativo;</li>
+   <li>Campo para poder digitar o login;</li>
+   <li>Campo para poder digitar a senha;</li>
+   <li>Opção para se cadastrar;</li>
+   <li>Opção para solicitar reset de senha;</li>
+   <li>Opção para o usuário manter-se conectado no aplicativo.</li>
+</ul>
 
-1.2.1 Tela de cadastro de usuário pessoas física e jurídica
+### 1.2.1 Tela de cadastro de usuário pessoas física e jurídica
 Ao abrir o aplicativo o usuário deverá ter a visibilidade dos seguintes itens:
    * Logo do Aplicativo;
    * Campo para digitar o nome completo do usuário;
