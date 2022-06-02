@@ -127,7 +127,6 @@ Vide Glossário do projeto.
 |Nome do Documento de Referência|Data de Criação|Autor|Situação Atual|
 |-------------------------------|---------------|-----|--------------|
 |Dispõe sobre a reprodução, criação, vendas, compra e doação de animais de estimação em estabelecimentos comerciais e assemelhados, no âmbito do Estado de Mato Grosso, e dá outras providências. Lei Nº 11441 de 01/07/2021|01/07/2021, Publicado no DOE - MT em 2 jul 2021| Assembléia Legislativa do Estado de Mato Grosso|Em Vigência|
-
 |Legislação Estadual de Mato Grosso(1)| | | |
 |A Lei Federal de Crimes Ambientais 9.605/98, em seu artigo 32, Cap. V condena todos aquele que "Praticar ato de abuso e maus-tratos à animais domésticos ou domesticados, silvestres, nativos ou exóticos", com pena de detenção de três meses a um ano, e multa (a pena é aumentada de um sexto a um terço se ocorre morte do animal). Lei Nº 9.605, de 12 de fevereiro de 1998(1)|12 de fevereiro de 1998|Lei Federal|Em Vigência|
 >Legenda de Situação:(1) Referência existente; (2) Referência existente, mas com necessidade de atualização; (3) Referência deve ser criada sob demanda deste projeto.
@@ -163,7 +162,7 @@ O projeto consiste no desenvolvimento de um aplicativo com a finalidade de divul
 Suposições e Dependências
 Lista cada um dos fatores que afetam os recursos que o documento de visão inclui. Lista as suposições que, se modificadas, alteraram o documento de visão. Por exemplo, uma suposição pode indicar que um sistema operacional específico fique disponível para o hardware designado para o produto de software. Se o sistema operacional não estiver disponível, será necessário alterar o documento de visão.
 
-<img src="https://raw.githubusercontent.com/TurmaADS2020/PetLife/main/documentation/images/suposicoes_dependencias.png" height="200" width="200">
+<img src="https://raw.githubusercontent.com/TurmaADS2020/PetLife/main/documentation/images/suposicoes_dependencias.png" height="300" width="300">
 
 ### 5.2 Licença e Instalaçao
 
