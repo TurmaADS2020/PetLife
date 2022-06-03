@@ -10,7 +10,7 @@ Este APP Pet Life tem como objetivo aproximar Ongs doadoras de Pets com pessoas 
 ### 1.2 Escopo
 Cadastrar de maneira rápida, fácil e segura as Ongs doadoras, podendo cada Ong postar fotos e dados dos pets que estarão disponíveis para doação. Os dados do doador e do Pet ficarão visíveis para o cliente efetuar a melhor escolha para sua adoção. Serão desenvolvidas apenas funcionalidades que atenderão a primeira versão do sistema. São elas:
 
-### 1.2.0 Página Inicial
+### 1.2.1 Página Inicial
 Ao abrir o aplicativo o usuário deverá ter a visibilidade dos seguintes itens:
    * Logo do Aplicativo;
    * Campo para poder digitar o login;
@@ -19,7 +19,7 @@ Ao abrir o aplicativo o usuário deverá ter a visibilidade dos seguintes itens:
    * Opção para solicitar reset de senha;
    * Opção para o usuário manter-se conectado no aplicativo.
 
-### 1.2.1 Tela de cadastro de usuário pessoas física e jurídica
+### 1.2.2 Tela de cadastro de usuário pessoas física e jurídica
 Ao abrir o aplicativo o usuário deverá ter a visibilidade dos seguintes itens:
    * Logo do Aplicativo;
    * Campo para digitar o nome completo do usuário;
