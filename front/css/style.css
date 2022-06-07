@@ -1,0 +1,213 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.laranja{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 1146px;
+    top: 654px;
+    background: #FF862F;
+    filter: blur(500px);
+    z-index: -999;
+}
+.azul{
+    position: absolute;
+    width: 436px;
+    height: 481px;
+    left: -68px;
+    top: -140px;
+    background: #00116B;
+    filter: blur(500px);
+    z-index: -999;
+}
+form{
+    min-width: 400px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 1px 6px 50px 5px rgba(0, 0, 0, 0.21);
+}
+form > div > .dados-usuario{
+    width: 80%;
+    height: 25%;
+}
+/*1*/
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  width: 80%;
+  height: 25%;
+}
+.header > img{
+    max-width: 60px;
+    padding: 10px;
+}
+/*1*/
+/*2*/
+.dados-usuario{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 80%;
+    height: 20%;
+    margin: 10px;
+}
+.dados-usuario > a{
+    padding-top: 10px;
+    text-decoration-line: underline;
+    color: #00116B;
+
+}
+
+.validacao{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 80%;
+    height: 15%;
+}
+
+.validacao > p{
+    margin-top: 10px;
+}
+.login-reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10%;
+    height: 40%;
+}
+.login-reset > button{
+    margin: 5%;
+}
+
+.login-reset > p,a{
+    padding-top: 5%;
+    color: #00116B;
+}
+
+.form-control{
+    padding: 0.8rem;
+    width: 100%;
+    border: 2px solid #00116B;
+    background: #ffffff;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s;
+    color: rgb(0, 0, 0);
+}
+
+.button {
+    background-color: #FF862F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+
+/*Coockies*/
+.coockies{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    background: #7c7a78;
+    width: 100vw;
+    transition: all 0.8s;
+}
+.coockiesimg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coockiesimg > img{max-width: 60px;}
+.coockiestxt{
+    width: 100%;
+}
+.coockiestxt > p{
+    width: 80%;
+    padding-top: 10px;
+}
+.coockiesbtn{
+    width: 30%;
+}
+.coockieshidden{
+    transition: all 2s;
+    bottom: -999px;
+}
+
+/* reset de senha */
+.esconder{
+    display: none!important;
+}
+.resetdesenha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 40vw;
+}
+.resetdesenha > form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+}
+.form-reset{
+    width: 30%!important;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 1px 6px 50px 5px rgba(0, 0, 0, 0.21);
+}

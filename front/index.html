@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login</title>
+
+</head>
+<body>
+    <div class="container">
+        <img src="./img/fundoazul.svg" class="azul"alt="background azul">
+        <img src="./img/fundolaranja.svg" class="laranja" alt="background laranja">
+        <form>
+
+            <div class="header">
+                <img src="./img/logo.png" alt="Logo">
+                <p>Login</p>
+            </div>
+
+            <div class="dados-usuario">
+                <label for="email">E-mail</label>
+                <input type="email" nome="email" id="email" placeholder="user@email.com" class="form-control">
+            </div>
+
+            <div class="dados-usuario">
+                <label for="senha">Senha</label>
+                <input type="password" nome="senha" id="senha" placeholder="************" class="form-control">
+                <a href="#">Esqueci a senha</a>
+            </div>
+
+            <div class="validacao">
+                <p><input type="checkbox" checked> Mantenha-me logado.</p> 
+                <p><input type="checkbox"> Aceito os coookies utilizados no site. </p> 
+            </div>
+            
+            <div class="login-reset">
+                <button class="button">Entrar</button>
+    
+                <p>Ainda não possui uma conta?<a href="#">Cadastre-se aqui</a></p>
+            </div>
+              
+        </form>
+
+        <div class="coockies">
+            <div class="coockiesimg">
+                <img src="./img/logo.png" alt="Logo">
+            </div>
+
+            <div class="coockiestxt">
+                <h3>Cookie Wall</h3>
+                <p>
+                Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência com o nosso site. Ao navegar pelas páginas, você declara estar de acordo com a nossa Política de Privacidade.</p>
+            </div>
+
+            <div class="coockiesbtn">
+                <button class="button" onclick="escondercoockies()" id="coockiesbotao">Ok, entendi</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./javascript/main.js"></script>
+</body>
+</html>
