@@ -12,3 +12,4 @@ Este APP Pet Life tem como objetivo aproximar Ongs doadoras de Pets com pessoas 
  * Desenhar e incluir no documento de visão um caso de USO completo dos principais processos;
  * Revisar todos os Casos de USO já produzidos e incluir diagrama nos documentos;
  * Criar novos casos de uso que ainda não foram escritos;
+ * Produção de artefatos: Diagrama de Classe, Atividades e Sequência do Fluxo Principal.
