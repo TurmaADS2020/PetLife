@@ -7,9 +7,9 @@ O documento de visão tem propósito de apresentar o design e requisitos de alto
 |----|-----|---------|------|
 |09/06/22|Almir Dias|Criação do Documento|1.0|
 ## 3. Escopo do Produto
-  A Organização Mundial da Saúde estima que só no Brasil existam 30 milhões de animais abandonados, entre 10 milhões de gatos e 20 milhões de cães. Em cidades de grande porte, para cada cinco habitantes há um cachorro. Destes, 10% estão abandonados.
+```A Organização Mundial da Saúde estima que só no Brasil existam 30 milhões de animais abandonados, entre 10 milhões de gatos e 20 milhões de cães. Em cidades de grande porte, para cada cinco habitantes há um cachorro. Destes, 10% estão abandonados.
 
-  O projeto Pet Life pretende auxiliar pessoas que querem adotar animais. A plataforma vai ligar pessoas a Ongs facilitando o processo de adoção.
+```O projeto Pet Life pretende auxiliar pessoas que querem adotar animais. A plataforma vai ligar pessoas a Ongs facilitando o processo de adoção.
 ## 4. Não está no Escopo do Produto
 * Não é responsável pela guarda e cuidados aos animais;
 * Não é responsabilidade dos mantenedores da Aplicação a entrega e acompanhamento das doações;
