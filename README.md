@@ -16,4 +16,4 @@ Este APP Pet Life tem como objetivo aproximar Ongs doadoras de Pets com pessoas 
 
 ## Gestão do Projeto através do Redmine, orientação Fabio 08/06/2022
 * Fazer o controle correto das tarefas, respeitando os prazos estabelecidos;
-* Ser detalhista em todas as tarefas;
+* Especificar corretamente as atividades na descrição da Tarefa e adicionar detalhes do progresso.
