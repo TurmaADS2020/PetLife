@@ -1,5 +1,11 @@
 package com.petlife.config;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+//Classe de configuração do protocolo HTTPS
+@ConfigurationProperties("controlefinanceiro")
+@Component
 public class PetLifeApiProperty {
 
 private final Seguranca seguranca = new Seguranca();
