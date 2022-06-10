@@ -41,6 +41,8 @@ A aplicação deve persistir dados cadastrados pelos usuários e logs gerados pe
 |RF001|Manter Cadastros Usuários |Os usuários poderão incluir, visualizar e alterar suas informações.|
 |RF002|Recuperação de Senha|Os usuários poderão realizar recuperação de senha.|
 |RF003|Cancelar cadastro|Os usuários poderão cancelar o cadastro sempre que desejarem|
+|RF004|Inclusão Pet|Usuários do tipo ONG's poderão incluir, visualizar e alterar informações de pet.|
+
 ## 6.2 Requisitos Não Funcionais
 
 ## 7. Restrições
