@@ -21,6 +21,7 @@ Pessoas que farão o acesso a aplicação com interesse de adotar algum animal, 
 |Nome|Responsábilidades|Perfil|
 |----|-----------------|------|
 |Adotante|* Ter a intenção de adotar <br/> * Realizar o cadastro <br/> * Ter condições de manter o pet, referênte a alimentação, medicação e cuidados da saúde|Usuário de Aplicação Web|
+|ONG's|* Possuir os animais <br/> * Ter cadastro na aplicação <br/> * Alimentar o aplicação com dados dos pet's |Usuário aplicação web|
 ### 5.2 Ongs
 Instituições sem fins lucrativos com a finalidade de facilitar a adoção de animais abandonados.
 ### 5.3 Usuário Administrador
