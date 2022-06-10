@@ -10,7 +10,7 @@ public class PetLifeApiProperty {
 
 private final Seguranca seguranca = new Seguranca();
 	
-	private String origemPermitida = "http://localhost:4200";
+	private String origemPermitida = "http://198.168.24.161:5500";
 
 	public String getOrigemPermitida() {
 		return origemPermitida;
