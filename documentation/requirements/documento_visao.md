@@ -23,19 +23,17 @@ O projeto Pet Life pretende auxiliar pessoas que querem adotar animais. A plataf
 ### 5.1 Usuarios
 Pessoas que farão o acesso a aplicação com interesse de doar ou adotar algum animal, usuários deverão realizar cadastro e comprovar residência fixa.
 
-### 5.2 Ongs
+### 5.2 Resumo dos Usuários
 |Nome|Responsábilidades|Perfil|
 |----|-----------------|------|
 |Adotante|* Ter a intenção de adotar <br/> * Realizar o cadastro <br/> * Ter condições de manter o pet, referênte a alimentação, medicação e cuidados da saúde|Usuário de Aplicação Web|
 |ONG's|* Possuir os animais <br/> * Ter cadastro na aplicação <br/> * Alimentar o aplicação com dados dos pet's |Usuário de Aplicação Web|
 |Administrador|* Usuário para gerir a aplicação <br/> * Realizar suporte ao demais usuários <br/> * Gerar relatórios e entregar aos interessados|Usuário de Aplicação Web <br/> Acesso ao código fonte <br/> Acesso ao banco de dados|
 
-Instituições sem fins lucrativos com a finalidade de facilitar a adoção de animais abandonados.
-
-### 5.3 Usuário Administrador
-Gerir os cadastros na aplicação e gerar relatórios.
-
 ## 6. Visão Geral do Produto
+O PetLife pretende contribuir para o bem estar animal e humano.
+A aplicação PetLife deve disponibilizar ao usuário uma interface intuitiva que possibilite o acesso de pessoas com diferentes níveis de familiaridade com as atuais tecnologias da informação.
+A aplicação deve persistir dados cadastrados pelos usuários e logs gerados pela atividade na aplicação.
 
 ## 6.1 Requisitos Funcionais
 
