@@ -15,9 +15,12 @@ O projeto Pet Life pretende auxiliar pessoas que querem adotar animais. A plataf
 * Não é responsabilidade dos mantenedores da Aplicação a entrega e acompanhamento das doações;
 * PetLife não é responsável pelo cuidado dos animais.
 ## 5. Descrição dos Envolvidos
-### 5.1 Usuários
+### 5.1 Adotante
 Pessoas que farão o acesso a aplicação com interesse de adotar algum animal, usuários deverão realizar cadastro e comprovar residência fixa.
 ### 5.2 Ongs
+Instituições sem fins lucrativos com a finalidade de facilitar a adoção de animais abandonados.
+### 5.3 Usuário Administrador
+Gerir os cadastros na aplicação e gerar relatórios.
 ## 6. Visão Geral do Produto
 ## 6.1 Requisitos Funcionais
 ## 6.2 Requisitos Não Funcionais
