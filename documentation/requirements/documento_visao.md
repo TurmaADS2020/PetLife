@@ -65,5 +65,12 @@ A aplicação deve persistir dados cadastrados pelos usuários e logs gerados pe
 |RNF012|Manutenibilidade - Modificabilidade|O sistema poderá sofrer alterações com facilidade e rapidez caso seja evidenciado algum problema.|
 |RNF013|Manutenibilidade - Analisabilidade|O sistema apresenta documentação detalhada de seus requisitos, proporcionando facilidade na análise de alguma função ou código.|
 ## 7. Restrições
-
+Restrições que serão impostas ao sistema ou ao processo de desenvolvimento.
+* Deve ser funcional no ambiente web e mobile;
+* Deve ser responsivo no ambiente web e mobile;
+* Deve ser compativel com os browsers mais populares (chrome, firefox e edge);
 ## 8. Política de Versionamento
+Como será realizado a política de versionamento do projeto.
+* GitHub
+* Cada alteração é acompanhada pela equipe antes de cada commit;
+* É mantido um histórico de versão por meio do github.
