@@ -17,6 +17,10 @@ O projeto Pet Life pretende auxiliar pessoas que querem adotar animais. A plataf
 ## 5. Descrição dos Envolvidos
 ### 5.1 Adotante
 Pessoas que farão o acesso a aplicação com interesse de adotar algum animal, usuários deverão realizar cadastro e comprovar residência fixa.
+
+|Nome|Responsábilidades|Perfil|
+|----|-----------------|------|
+|Adotante|* Ter a intenção de adotar /n* Realizar o cadastro /n* Ter condições de manter o pet, referênte a alimentação, medicação e cuidados da saúde|Usuário de Aplicação Web|
 ### 5.2 Ongs
 Instituições sem fins lucrativos com a finalidade de facilitar a adoção de animais abandonados.
 ### 5.3 Usuário Administrador
