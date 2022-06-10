@@ -14,9 +14,9 @@ A Organização Mundial da Saúde estima que só no Brasil existam 30 milhões d
 
 O projeto Pet Life pretende auxiliar pessoas que querem adotar animais. A plataforma vai ligar pessoas a Ongs facilitando o processo de adoção.
 ## 4. Não está no Escopo do Produto
-* Não é responsável pela guarda e cuidados aos animais;
-* Não é responsabilidade dos mantenedores da Aplicação a entrega e acompanhamento das doações;
-* PetLife não é responsável pelo cuidado dos animais.
+* Responsabilidade pela guarda e cuidados aos animais;
+* Responsabilidade de realizar ou acompanhar das doações;
+* Responsabilidade de cuidar dos animais.
 
 ## 5. Descrição dos Envolvidos
 
@@ -27,7 +27,7 @@ Pessoas que farão o acesso a aplicação com interesse de doar ou adotar algum 
 |Nome|Responsabilidades|Perfil|
 |----|-----------------|------|
 |Adotante|* Ter a intenção de adotar <br/> * Realizar o cadastro <br/> * Ter condições de manter o pet, referênte a alimentação, medicação e cuidados da saúde|Usuário de Aplicação Web|
-|ONG's|* Possuir os animais <br/> * Ter cadastro na aplicação <br/> * Alimentar o aplicação com dados dos pet's |Usuário de Aplicação Web|
+|ONG's|* Possuir os animais <br/> * Ter cadastro na aplicação <br/> * Manter os dados dos pet's atualizados |Usuário de Aplicação Web|
 |Administrador|* Usuário para gerir a aplicação <br/> * Realizar suporte ao demais usuários <br/> * Gerar relatórios e entregar aos interessados|Usuário de Aplicação Web <br/> Acesso ao código fonte <br/> Acesso ao banco de dados|
 
 ## 6. Visão Geral do Produto
@@ -64,6 +64,13 @@ A aplicação deve persistir dados cadastrados pelos usuários e logs gerados pe
 |RNF011|Eficiência - Utilização de recursos| A utilização de conexão de dados do usuário deverá ser a mínima possível em relação as requisições realizadas pelo mesmo.|
 |RNF012|Manutenibilidade - Modificabilidade|O sistema poderá sofrer alterações com facilidade e rapidez caso seja evidenciado algum problema.|
 |RNF013|Manutenibilidade - Analisabilidade|O sistema apresenta documentação detalhada de seus requisitos, proporcionando facilidade na análise de alguma função ou código.|
+
+## 6.3 Descrição de Processos
+Descrevemos os principais processos executados pelos usuários na aplicação.
+
+### 6.3.1 Cadastro de Adotante
+
+
 ## 7. Restrições
 Restrições que serão impostas ao sistema ou ao processo de desenvolvimento.
 * Deve ser funcional no ambiente web e mobile;
