@@ -80,6 +80,11 @@ Ao clicar no botão contato o usuário será direcionado a uma tela que possui m
 </figure>
 
 ### 6.3.2 Fluxo Doador
+O usuário doador com o processo de cadastro concluído realizará a autenticação no aplicativo. Na tela principal o usuário visualiza um botão para acessar o perfil onde será apresentado todos os pets cadastrados por ele e possibilidade de realizar novo cadastro.
+
+O Usuário poderá sempre que desejar atualizar suas informações possibilitando que o adotante tenha acesso a dados atualizados.
+
+Os contatos feitos pelo adotante serão por meios externos ao aplicativo.
 
 
 ## 7. Restrições
