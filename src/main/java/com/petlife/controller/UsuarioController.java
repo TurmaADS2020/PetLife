@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.petlife.dto.UsuarioDTO;
-import com.petlife.repository.UsuarioRepository;
 import com.petlife.service.UsuarioService;
 
 import lombok.RequiredArgsConstructor;
@@ -35,9 +34,9 @@ public class UsuarioController {
 	}
 	
 	@GetMapping(value = {"/{id}"})
-	public ResponseEntity<UsuarioDTO> salvarUsuario(@PathVariable("id")Long id) throws Exception{
-		UsuarioDTO salvar = this.usuarioService.finBydId(id);
-		return ResponseEntity.ok().body(salvar);
+	public ResponseEntity<UsuarioDTO> buscarUsuario(@PathVariable("id")Long id) throws Exception{
+		UsuarioDTO buscar = this.usuarioService.finBydId(id);
+		return ResponseEntity.ok().body(buscar);
 	}
 	
 	@PostMapping
