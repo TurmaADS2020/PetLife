@@ -75,8 +75,8 @@ O aplicativo apresenta os cadastros de pet com uma imagem principal, avatar e no
 Ao clicar no botão contato o usuário será direcionado a uma tela que possui mais informações sobre a ONGs possibilitando que o usuário entre em contato com a mesma.
 
 <figure>
-<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/dv_principal_adotante.png?raw=true">
 <figcaption>Fluxo Principal Adotante</figcaption>
+<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/dv_principal_adotante.png?raw=true">
 </figure>
 
 ## 7. Restrições
