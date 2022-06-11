@@ -68,7 +68,11 @@ A aplicação deve persistir dados cadastrados pelos usuários e logs gerados pe
 ## 6.3 Descrição de Processos
 Descrevemos os principais processos executados pelos usuários na aplicação.
 
-### 6.3.1 Cadastro de Adotante
+### 6.3.1 Fluxo Adotante
+Usuário adotante com o processo de cadastro concluído realizará a autenticação no aplicativo. Na tela principal utilizará  da barra de pesquisa para localizar algum pet de interesse ou selecionará alguns dos resultados apresentados na tabela de resultados.
+O aplicativo apresenta os cadastros de pet com uma imagem principal, avatar e nome da ONG’s responsável pelo animal, breve resumo do animal e um texto com link “entrar em contato”
+
+Ao clicar no botão contato o usuário será direcionado a uma tela que possui mais informações sobre a ONGs possibilitando que o usuário entre em contato com a mesma.
 
 
 ## 7. Restrições
