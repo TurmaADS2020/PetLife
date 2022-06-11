@@ -4,13 +4,13 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 //Classe de configuração do protocolo HTTPS
-@ConfigurationProperties("controlefinanceiro")
+@ConfigurationProperties("petlife")
 @Component
 public class PetLifeApiProperty {
 
 private final Seguranca seguranca = new Seguranca();
 	
-	private String origemPermitida = "http://198.168.24.161:5500";
+	private String origemPermitida = "http://localhost:5500";
 
 	public String getOrigemPermitida() {
 		return origemPermitida;
