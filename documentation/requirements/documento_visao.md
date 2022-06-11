@@ -70,14 +70,17 @@ Descrevemos os principais processos executados pelos usuários na aplicação.
 
 ### 6.3.1 Fluxo Adotante
 Usuário adotante com o processo de cadastro concluído realizará a autenticação no aplicativo. Na tela principal utilizará  da barra de pesquisa para localizar algum pet de interesse ou selecionará alguns dos resultados apresentados na tabela de resultados.
-O aplicativo apresenta os cadastros de pet com uma imagem principal, avatar e nome da ONG’s responsável pelo animal, breve resumo do animal e um texto com link “entrar em contato”
+O aplicativo apresenta os cadastros de pet com uma imagem principal, nome da ONG’s responsável pelo animal, breve resumo do animal e um texto com link “entrar em contato”
 
-Ao clicar no botão contato o usuário será direcionado a uma tela que possui mais informações sobre a ONGs possibilitando que o usuário entre em contato com a mesma.
+Ao clicar no botão contato o usuário será direcionado a uma tela que possui mais informações sobre a ONGs possibilitando que o usuário entre em contato com a mesma e concluindo o processo de adoção.
 
 <figure>
 <figcaption>Fluxo Principal Adotante</figcaption>
 <img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/dv_principal_adotante.png?raw=true">
 </figure>
+
+### 6.3.2 Fluxo Doador
+
 
 ## 7. Restrições
 Restrições que serão impostas ao sistema ou ao processo de desenvolvimento.
