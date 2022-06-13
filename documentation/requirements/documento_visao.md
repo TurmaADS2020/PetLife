@@ -14,8 +14,8 @@ A Organização Mundial da Saúde estima que só no Brasil existam 30 milhões d
 
 O projeto Pet Life pretende auxiliar pessoas que querem adotar animais. A plataforma vai ligar pessoas a Ongs facilitando o processo de adoção.
 ## 4. Não está no Escopo do Produto
-* Responsabilidade pela guarda e cuidados aos animais;
-* Responsabilidade de realizar ou acompanhar das doações;
+* Responsabilidade pela guarda e cuidados dos animais;
+* Responsabilidade de realizar ou acompanhar as doações;
 * Responsabilidade de cuidar dos animais.
 
 ## 5. Descrição dos Envolvidos
@@ -91,8 +91,8 @@ Os contatos feitos pelo adotante serão por meios externos ao aplicativo.
 <img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/dv_principal_doador.png?raw=true">
 </figure>
 
-### 6.3.3 Fluxo de atividade conjunta
-
+### 6.3.3 Fluxo Principal do Processo de Doação
+Fluxo apresenta o processo principal da aplicação com todas as exigências sanadas, as exceções serão apresentados nos documentos de casos de uso armazenados no diretório “PetLife/documentation/requirements/use_cases/” e referenciados em tabela no tópico de Casos de Uso.
 
 <figure>
 <figcaption>Fluxo Principal Doação</figcaption>
