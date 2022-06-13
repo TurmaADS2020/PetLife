@@ -14,8 +14,8 @@ A Organização Mundial da Saúde estima que só no Brasil existam 30 milhões d
 
 O projeto Pet Life pretende auxiliar pessoas que querem adotar animais. A plataforma vai ligar pessoas a Ongs facilitando o processo de adoção.
 ## 4. Não está no Escopo do Produto
-* Responsabilidade pela guarda e cuidados aos animais;
-* Responsabilidade de realizar ou acompanhar das doações;
+* Responsabilidade pela guarda e cuidados dos animais;
+* Responsabilidade de realizar ou acompanhar as doações;
 * Responsabilidade de cuidar dos animais.
 
 ## 5. Descrição dos Envolvidos
