@@ -86,6 +86,13 @@ O Usuário poderá sempre que desejar atualizar suas informações possibilitand
 
 Os contatos feitos pelo adotante serão por meios externos ao aplicativo.
 
+<figure>
+<figcaption>Fluxo Principal Doador</figcaption>
+<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/dv_principal_doador.png?raw=true">
+</figure>
+
+### 6.3.3 Fluxo de atividade conjunta
+
 
 ## 7. Restrições
 Restrições que serão impostas ao sistema ou ao processo de desenvolvimento.
