@@ -94,6 +94,10 @@ Os contatos feitos pelo adotante serão por meios externos ao aplicativo.
 ### 6.3.3 Fluxo de atividade conjunta
 
 
+<figure>
+<figcaption>Fluxo Principal Doação</figcaption>
+<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/dv_principal_doacao.png?raw=true">
+</figure>
 ## 7. Restrições
 Restrições que serão impostas ao sistema ou ao processo de desenvolvimento.
 * Deve ser funcional no ambiente web e mobile;
