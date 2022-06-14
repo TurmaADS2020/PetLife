@@ -99,7 +99,7 @@ Fluxo apresenta o processo principal da aplicação com todas as exigências san
 <img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/dv_principal_doacao.png?raw=true">
 </figure>
 
-## 6.3 Casos de Uso
+## 6.4 Casos de Uso
 Apresentação dos casos de uso, os documentos estão armazenados e serão referenciados na tabela a seguir.
 
 |Nº|Nome|Descrição|Local|
