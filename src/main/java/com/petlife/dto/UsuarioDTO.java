@@ -21,7 +21,7 @@ public class UsuarioDTO {
 	//TODO
 	//private ArquivoDTO arquivo;
 	private Long ativo;
-	private Long cpf;
+	private String cpf;
 	private LocalDate dataCadastro;
 	private String nome;
 	private String email;

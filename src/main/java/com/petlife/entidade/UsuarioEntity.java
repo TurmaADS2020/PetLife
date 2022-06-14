@@ -9,8 +9,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import org.hibernate.annotations.BatchSize;
 
 //import javax.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -43,8 +44,9 @@ public class UsuarioEntity {
 	@Column(name = "ativo")
 	private Long ativo;
 	
+	@BatchSize(size= 11)
 	@Column(name = "cpf")
-	private Long cpf;
+	private String cpf;
 	
 	@Column(name= "data_cadastro")
 	private LocalDate dataCadastro;
