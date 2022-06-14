@@ -104,8 +104,10 @@ Apresentação dos casos de uso, os documentos estão armazenados e serão refer
 
 |Nº|Nome|Descrição|Local|
 |--|----|---------|-----|
-|UC001|Página Inicial|* Possibilidade de autenticação <br/> * Opção para cadastrar <br/> * Solicitar recuperação de senha.|Link|
-|UC002|Tela de Cadastro de Usuário|* Formulário com dados requisitados <br/> * Possibilidade de incluir anexos <br/> * Aceite de Termos de Uso <br/>|Link|
+|UC001|Autenticação|Processo de autenticação do usuário na aplicação.|Link|
+|UC002|Cadastro de Usuário|Processo de cadastro de novos usuários|Link|
+|UC003|Recuperação Senha|Processo que usuário deve relizar para recuperar a senha|Link|
+|UC004||||
 
 ## 7. Restrições
 Restrições que serão impostas ao sistema ou ao processo de desenvolvimento.
