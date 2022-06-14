@@ -99,6 +99,14 @@ Fluxo apresenta o processo principal da aplicação com todas as exigências san
 <img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/dv_principal_doacao.png?raw=true">
 </figure>
 
+## 6.3 Casos de Uso
+Apresentação dos casos de uso, os documentos estão armazenados e serão referenciados na tabela a seguir.
+
+|Nº|Nome|Descrição|Local|
+|--|----|---------|-----|
+|UC001|Página de Uso|* Possibilidade de autenticação <br/>, * Opção para cadastrar <br/> * Solicitar recuperação de senha.|Link|
+|UC002|Tela de Cadastro de Usuário|* Formulário com dados requisitados <br/> * Possibilidade de incluir anexos <br/> * Aceite de Termos de Uso <br/>|Link|
+
 ## 7. Restrições
 Restrições que serão impostas ao sistema ou ao processo de desenvolvimento.
 * Deve ser funcional no ambiente web e mobile;
