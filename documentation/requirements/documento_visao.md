@@ -104,7 +104,7 @@ Apresentação dos casos de uso, os documentos estão armazenados e serão refer
 
 |Nº|Nome|Descrição|Local|
 |--|----|---------|-----|
-|UC001|Página de Uso|* Possibilidade de autenticação <br/> * Opção para cadastrar <br/> * Solicitar recuperação de senha.|Link|
+|UC001|Página de Inicial|* Possibilidade de autenticação <br/> * Opção para cadastrar <br/> * Solicitar recuperação de senha.|Link|
 |UC002|Tela de Cadastro de Usuário|* Formulário com dados requisitados <br/> * Possibilidade de incluir anexos <br/> * Aceite de Termos de Uso <br/>|Link|
 
 ## 7. Restrições
