@@ -264,7 +264,7 @@ DROP TABLE IF EXISTS `usuario`;
 CREATE TABLE `usuario` (
   `id_usuario` int(11) NOT NULL AUTO_INCREMENT,
   `endereco_idendereco` int(11) NOT NULL DEFAULT 0,
-  `arquivo_idarquivo` int(11) NOT NULL DEFAULT 0,
+  `arquivo_idarquivo` int(11) DEFAULT NULL,
   `ativo` int(11) NOT NULL DEFAULT 0,
   `cpf` int(11) NOT NULL DEFAULT 0,
   `data_cadastro` datetime DEFAULT NULL,
@@ -273,7 +273,8 @@ CREATE TABLE `usuario` (
   `senha` varchar(65) NOT NULL DEFAULT '',
   `telefone` bigint(14) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id_usuario`),
-  KEY `usuario_ibfk_1` (`endereco_idendereco`)
+  KEY `usuario_idendereco` (`endereco_idendereco`),
+  KEY `usuario_idarquivo` (`arquivo_idarquivo`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 #
@@ -381,7 +382,8 @@ ADD CONSTRAINT `empresa_ibfk_1` FOREIGN KEY (`endereco_idendereco`) REFERENCES `
 #
 
 ALTER TABLE `usuario`
-ADD CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`endereco_idendereco`) REFERENCES `endereco` (`idendereco`);
+ADD CONSTRAINT `usuario_idarquivo` FOREIGN KEY (`arquivo_idarquivo`) REFERENCES `arquivo` (`idarquivo`),
+ADD CONSTRAINT `usuario_idendereco` FOREIGN KEY (`endereco_idendereco`) REFERENCES `endereco` (`idendereco`);
 
 #
 #  Foreign keys for table vacina_has_animal
