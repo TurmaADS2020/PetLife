@@ -104,7 +104,7 @@ Apresentação dos casos de uso, os documentos estão armazenados e serão refer
 
 |Nº|Nome|Descrição|Local|
 |--|----|---------|-----|
-|UC001|Autenticação|Processo de autenticação do usuário na aplicação.|Link|
+|UC001|Autenticação|Processo de autenticação do usuário na aplicação.|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC001.md"> Link </a>|
 |UC002|Cadastro de Usuário|Processo de cadastro de novos usuários|Link|
 |UC003|Recuperação Senha|Processo que usuário deve relizar para recuperar a senha|Link|
 |UC004||||
