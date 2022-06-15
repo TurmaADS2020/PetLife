@@ -1,7 +1,5 @@
 package com.petlife.entidade;
 
-import java.time.LocalDateTime;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,36 +18,37 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "animal")
-public class AnimalEntity {
+@Table(name = "empresa")
+public class EmpresaEntity {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name ="idanimal")
-	private Long idanimal;
+	@Column(name ="idempresa")
+	private Long idempresa;
 	
-	@Column(name ="tipoEspecie")
-	private String tipoEspecie;
-	
-	@Column(name ="dat_cadastro")
-	private LocalDateTime dat_cadastro;
-	
+	@Column(name ="ativo")
+	private Long ativo;
+		
 	@Column(name ="nome")
 	private String nome;
 	
-	@Column(name ="porte")
-	private String porte;
+	@Column(name ="natureza")
+	private String natureza;
 	
-	@Column(name ="sexo")
-	private String sexo;
+	@Column(name ="cnpj")
+	private Long cnpj;
+			
+	@Column(name ="responsavel")
+	private String responsavel;
 	
-		
-	@Column(name ="temperamento")
-	private String temperamento;
-	
-	@Column(name ="observacao")
-	private String observacao;
+	@Column(name ="email")
+	private String email;
 
+	@Column(name ="senha")
+	private Long senha;
+	
+	@Column(name ="endereco_idendereco")
+	private Long endereco_idendereco;
 }
 
 

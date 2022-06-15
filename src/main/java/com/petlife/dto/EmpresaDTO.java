@@ -1,7 +1,5 @@
 package com.petlife.dto;
 
-
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -17,12 +15,16 @@ import lombok.Setter;
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = false)
 @AllArgsConstructor
-public class TipoespecieDTO {
-	
-private Long idtipoespecie;
-private String especie;
-private String raca;
-private String descricao;
 
+public class EmpresaDTO {
+	private Long idempresa;
+	private Long ativo;
+	private String nome;
+	private String natureza;
+	private Long cnpj;
+	private String responsavel;
+	private String email;
+	private Long senha;
+	private Long endereco_idendereco; 
 
 }
