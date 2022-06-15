@@ -104,10 +104,10 @@ Apresentação dos casos de uso, os documentos estão armazenados e serão refer
 
 |Nº|Nome|Descrição|Local|
 |--|----|---------|-----|
-|UC001|Cadastro de Usuário|Processo de autenticação do usuário na aplicação.|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC001.md" target="_blank"> Link </a>|
-|UC002|Cadastro de Usuário|Processo de cadastro de novos usuários|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC002.md" target="_blank"> Link </a>|
-|UC003|Recuperação Senha|Processo que usuário deve relizar para recuperar a senha|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC003.md" target="_blank"> Link </a>|
-|UC004|Barra de Pesquisa|Comportamento da barra de pesquisa|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC004.md" target="_blank"> Link </a>|
+|UC001|Cadastro de Usuário|Processo de cadastro de novos usuários|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC001.md" target="_blank"> Link </a>|
+|UC002|Autenticação de Usuário|Processo de autenticação do usuário na aplicação|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC002.md" target="_blank"> Link </a>|
+|UC003|Modificar Perfil|Processo de alteração no perfil do usuário|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC003.md" target="_blank"> Link </a>|
+|UC004|Pesquisa Animal|Processo de pesquisar um animal cadastrado a aplicação|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC004.md" target="_blank"> Link </a>|
 |UC005|Informação de Animais|Tela que armazena informações dos animais|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC005.md" target="_blank"> Link </a>|
 |UC006|Chat|Sistema de comunicação entre usuários|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC006.md" target="_blank"> Link </a>|
 
