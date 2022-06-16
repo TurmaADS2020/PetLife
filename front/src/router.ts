@@ -1,11 +1,12 @@
 import { Router } from "express";
 import {homeController} from "./controller/HomeController"
-import {AuthMiddleware} from './services/Middleware/AuthMiddleware';
+import {UserController} from "./controller/UserController";
 
-const auth: AuthMiddleware = new AuthMiddleware();
 const router: Router = Router()
 
 //MAPPEAR ROTAS AQUI!!!
-router.post("/", auth.Authentication, homeController.Home)
+router.get("/teste",  homeController.Home)
+router.get("/test",new UserController().ObtemCookieUser)
+router.post("/cadastrarUser", new UserController().CadastrarUser)
 
 export {router}

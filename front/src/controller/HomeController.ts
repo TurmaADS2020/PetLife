@@ -1,19 +1,9 @@
-import {Request, Response} from "express";
-import { ApiService} from "./ApiService";
-
-class HomeController extends ApiService{
-    pathPublic: string;
-
-    constructor() {
-        super();
-        this.pathPublic = __dirname.replace('src', 'Public')
-    }
-
-    public Home(req: Request, res:Response) : Response{
-        
-        res.sendFile(this.pathPublic.concat('/index.html'));        
-    
-        return res;
+import { Request, Response } from "express";
+class HomeController {
+    public Home(req: Request, res: Response): Response {
+        //res.sendFile(this.pathPublic.concat('/index.html'))
+        console.log(req.cookies.UserToken);
+        return res.send('');
     }
 
 }

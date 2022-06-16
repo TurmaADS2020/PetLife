@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Anyar Bootstrap Template</title>
+  <title>Meu Perfil</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -102,9 +102,9 @@
 
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Portfolio Details</li>
+          <li>Perfil do usuario</li>
         </ol>
-        <h2>Portfolio Details</h2>
+        <h2>Perfil do usuario</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -138,19 +138,47 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3 id="nomeretornadousuario"></h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li id="ex-dados"><strong>E-mail</strong>: Web design</li>
+                <li><strong>Telefone</strong>: ASU Company</li>
+                <li><strong>Data do cadastro:</strong>: 01 March, 2020</li>
+                <!-- <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li> -->
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
+              <h2>Minhas publicações:</h2>
+              <!-- portifolio-->
+              <div class="card" style="width: 18rem;">
+                <!--carrousel-->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img id="foto1" src="" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img id="foto2" src="" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img id="foto3" src="" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <!--carroseul-->
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -261,6 +289,10 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="./assets/js/consultacep.js"></script>
+  <script>
+    document.getElementById("ex-dados").innerHTML = "Ok";
+  </script>
 
 </body>
 

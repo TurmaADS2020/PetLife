@@ -19,7 +19,8 @@ class  Server{
         this.server.use(express.json())
         this.server.use(express.static("Public"))        
         this.server.use(BodyParser.urlencoded({ extended: true }));
-        this.server.use(cookieParser());        
+        this.server.use(cookieParser());    
+            
     }
 
     private router(){

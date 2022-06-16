@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Document</title>
+</head>
+<body>
+
+        <input type="text" name="id" id="id">
+        <button id="localizar">Localizar</button>
+
+
+        <div>
+            <p id="dadosretorno1"></p>
+            <p id="body1"></p>
+        </div>
+
+        <div>
+            <p id="dadosretorno2"></p>
+            <p id="body2"></p>
+        </div>
+
+        <div>
+            <p id="dadosretorno3"></p>
+            <p id="body3"></p>
+        </div>
+   
+    <script>
+       const seq = [1,2,3];
+       
+            fetch("https://jsonplaceholder.typicode.com/users")
+            .then((response)=>response.json())
+            .then((dados) => {
+                const numbers = [1,2,3];
+                numbers.forEach((numbers)=>{
+                    document.getElementById("dadosretorno"+numbers).innerHTML = dados[numbers].name;
+                    document.getElementById("body"+numbers).innerHTML = dados[numbers].email;
+                })
+            })
+            
+            console.log(document.getElementById("dadosretorno"+seq[i]))
+       
+
+        Console.log(Cache.match(request, options));
+    
+    </script>
+</body>
+</html>
