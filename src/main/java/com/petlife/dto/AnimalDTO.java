@@ -19,16 +19,15 @@ import lombok.Setter;
 @EqualsAndHashCode(callSuper = false)
 @AllArgsConstructor
 public class AnimalDTO {
-	
-	private int idanimal;
-	public String tipoespecie;
-	public LocalDateTime dat_cadastro;
-	public String raca;
-	public String sexo;
-	public Long nome;
-	public Long porte;
-	public String temperamento;
-	public String observacao;
+	private Long idanimal;
+	private String tipoespecie;
+	private LocalDateTime dat_cadastro;
+	private String raca;
+	private String sexo;
+	private Long nome;
+	private Long porte;
+	private String temperamento;
+	private String observacao;
 	
 
 }

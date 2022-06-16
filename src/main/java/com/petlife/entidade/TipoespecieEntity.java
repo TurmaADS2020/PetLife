@@ -9,7 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.hibernate.type.descriptor.sql.LongVarcharTypeDescriptor;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -28,16 +27,16 @@ public class TipoespecieEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name ="idtipoespecie")
-	private int idtipoespecie;
+	private Long idtipoespecie;
 	
 	@Column(name ="especie")
-	public String especie;
+	private String especie;
 	
 	@Column(name ="raca")
-	public LongVarcharTypeDescriptor raca;
+	private String raca;
 	
 	@Column(name ="descricao")
-	public LongVarcharTypeDescriptor descricao;
+	private String descricao;
 	
 
 }
