@@ -10,6 +10,7 @@ import org.springframework.util.StringUtils;
 
 import com.petlife.dto.UsuarioDTO;
 import com.petlife.entidade.UsuarioEntity;
+import com.petlife.mapper.ArquivoMapper;
 import com.petlife.mapper.EnderecoMapper;
 import com.petlife.mapper.UsuarioMapper;
 import com.petlife.repository.UsuarioRepository;
@@ -30,6 +31,9 @@ public class UsuarioService {
 	
 	@Autowired
 	private EnderecoMapper enderecoMapper;
+	
+	@Autowired
+	private ArquivoMapper arquivoMapper;
 	
 	@Transactional(readOnly = true)
 	public List<UsuarioDTO> listUsuario() {
@@ -52,6 +56,7 @@ public class UsuarioService {
 			
 			entity.setId(dto.getId());
 			entity.setIdEndereco(enderecoMapper.toEntity(dto.getEndereco()));
+			entity.setIdArquivo(arquivoMapper.toEntity(dto.getArquivo()));
 			entity.setAtivo(dto.getAtivo());
 			entity.setCpf(dto.getCpf());
 			entity.setDataCadastro(dto.getDataCadastro());

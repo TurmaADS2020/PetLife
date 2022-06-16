@@ -37,9 +37,9 @@ public class UsuarioEntity {
 	private EnderecoEntity idEndereco;
 	
 	//TODO
-//	@OneToMany
-//	@JoinColumn(name = "idarquivo")
-//	private ArquivoEntity idArquivo;
+	@ManyToOne
+	@JoinColumn(name = "arquivo_idarquivo")
+	private ArquivoEntity idArquivo;
 	
 	@Column(name = "ativo")
 	private Long ativo;

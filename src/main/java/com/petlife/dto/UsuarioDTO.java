@@ -19,7 +19,7 @@ public class UsuarioDTO {
 	private Long id;
 	private EnderecoDTO endereco;
 	//TODO
-	//private ArquivoDTO arquivo;
+	private ArquivoDTO arquivo;
 	private Long ativo;
 	private String cpf;
 	private LocalDate dataCadastro;
