@@ -45,7 +45,7 @@ A aplicação deve persistir dados cadastrados pelos usuários e logs gerados pe
 |RF005|Desativar Visualização de Pet|Usuários do tipo ONG's poderão a qualquer momento desativar a visualização de algum animal sempre que desejarem e deverão informar o motivo.|
 |RF006|Localizar Animais|Usuários cadastrados ou não poderão localizar animais disponiveis para adoção, mas só os usuários cadastrados poderão ter acesso ao botão de "entrar em contato".|
 |RF007|Apresentar Resultados|A tela principal da aplicação apresentará o total de "Animais doados" e "Animais disponíveis"|
-|RF008|Curtir animais|Usuários poderão clica em icone "Coração" mostrando interesse pelo pet.|
+|RF008|Curtir animais|Usuários poderão clicar em icone "Coração" mostrando interesse pelo pet.|
 |RF009|Visualizar slider de Imagens|Usuários ao clicar na imagem apresentada na pesquisa visualizará um Slider com mais imagens do Pet em questão.|
 
 ## 6.2 Requisitos Não Funcionais
