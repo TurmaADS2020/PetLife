@@ -76,7 +76,7 @@ Ao clicar no botão contato o usuário será direcionado a uma tela que possui m
 
 <figure>
 <figcaption>Fluxo Principal Adotante</figcaption>
-<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/dv_principal_adotante.png?raw=true">
+<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/dv_principal_adotante1.png?raw=true">
 </figure>
 
 ### 6.3.2 Fluxo Doador
