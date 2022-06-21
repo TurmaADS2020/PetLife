@@ -100,16 +100,17 @@ Fluxo apresenta o processo principal da aplicação com todas as exigências san
 ## 6.4 Casos de Uso
 Apresentação dos casos de uso, os documentos estão armazenados e serão referenciados na tabela a seguir.
 
-|Nº|Nome|Descrição|Local|
-|--|----|---------|-----|
-|UC001|Cadastro de Usuário|Processo de cadastro de novos usuários||
-|UC002|Autenticação de Usuário|Processo de autenticação do usuário na aplicação||
-|UC003|Modificar Perfil|Processo de alteração no perfil do usuário||
-|UC004|Doa Animal|Processo cadastrar um animal na plataforma ||
-|UC005|Pesquisa Animal|Proceso de busca por animal cadastrado no sistema ||
-|UC006|Favorita Animal|Processo de marcar um animal como favorito||
-|UC007|Adota Animal|Processo de adotar um animal cadastrado na plataforma||
-|UC008|Cancela Cadastro| Processo de cancelar um cadastro feito no sistema||
+|Nº|Nome|Descrição|Local| Status dev |
+|--|----|---------|-----|------------|
+|UC001|Cadastro de Usuário|Processo de cadastro de novos usuários|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC002.md"> Link </a>| Ok |
+|UC002|Autenticação de Usuário|Processo de autenticação do usuário na aplicação|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC001.md"> Link </a> | Ok |
+|UC003|Redefinir Senha|Processo de redefinir a senha esquecida pelo usuário|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC003.md"> Link </a> | Pendente back|
+|UC004|Modificar Perfil|Processo de alteração no perfil do usuário|(verificar caso de uso)|
+|UC005|Doa Animal|Processo cadastrar um animal na plataforma |<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/1.2.12_Doacoes.md"> Link </a>|Pendente |
+|UC006|Pesquisa Animal|Proceso de busca por animal cadastrado no sistema |<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC004.md"> Link </a>|Pendente |
+|UC007|Favorita Animal|Processo de marcar um animal como favorito|(verificar necessidade)|
+|UC008|Adota Animal|Processo de adotar um animal cadastrado na plataforma|<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/1.2.3_Pagina_apos_logado.md"> Link </a>|Ok |
+|UC009|Cancela Cadastro| Processo de cancelar um cadastro feito no sistema|(caso de uso inexistente)|
 
 ## 7. Restrições
 Restrições que serão impostas ao sistema ou ao processo de desenvolvimento.
