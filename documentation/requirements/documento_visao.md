@@ -113,8 +113,7 @@ Apresentação dos casos de uso, os documentos estão armazenados e serão refer
 |UC003|Redefinir Senha|Processo de redefinir a senha esquecida pelo usuário|
 <a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC003.md"> Link </a> |
 |UC004|Modificar Perfil|Processo de alteração no perfil do usuário||
-|UC005|Doa Animal|Processo cadastrar um animal na plataforma |
-<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/1.2.12_Doacoes.md"> Link </a>|
+|UC005|Doa Animal|Processo cadastrar um animal na plataforma |<a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/1.2.12_Doacoes.md"> Link </a>|
 |UC006|Pesquisa Animal|Proceso de busca por animal cadastrado no sistema |
 <a href="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/requirements/use_cases/UC004.md"> Link </a>|
 |UC007|Favorita Animal|Processo de marcar um animal como favorito||
