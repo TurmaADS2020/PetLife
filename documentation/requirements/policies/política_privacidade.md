@@ -80,3 +80,14 @@ E/OU ADOLESCENTES.
 <figure>
 <img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/table1_politica_privacidade.png?raw=true">
 </figure>
+
+Caso reste qualquer dúvida, por favor contate nossos Canais de Atendimento, descritos ao
+início desse documento.
+
+## DA DÚVIDAS
+
+Caso tenha quaisquer perguntas específicas que não tenham sido cobertas por este
+documento, ou se você quiser saber exatamente quais as informações que temos sobre
+você, por favor entre em contato via e-mail (ads.tturma2020@gmail.com)
+
+Última modificação: 20/06/2022
