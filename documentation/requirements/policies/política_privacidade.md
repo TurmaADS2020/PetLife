@@ -78,6 +78,5 @@ E/OU ADOLESCENTES.
 
 ## DOS DADOS COLETADOS
 <figure>
-<figcaption>Fluxo Principal Adotante</figcaption>
 <img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/table1_politica_privacidade.png?raw=true">
 </figure>
