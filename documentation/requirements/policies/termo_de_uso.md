@@ -27,44 +27,44 @@ Você pode ser solicitado a se registrar no Site. Você concorda em manter sua s
 Você não pode acessar ou usar o Site para qualquer finalidade diferente daquela para a qual disponibilizamos o Site. O Site não pode ser usado em conexão com quaisquer empreendimentos comerciais, exceto aqueles especificamente endossados ​​ou aprovados por nós.
 
 Como usuário do Site, você concorda em não:
-Recuperar sistematicamente dados ou outro conteúdo do Site para criar ou compilar, direta ou indiretamente, uma coleção, compilação, banco de dados ou diretório sem nossa permissão por escrito.
-Enganar ou fraudar a nós e a outros usuários, especialmente em qualquer tentativa de obter informações confidenciais da conta, como senhas de usuários.
-Contornar, desabilitar ou interferir de outra forma nos recursos relacionados à segurança do Site, incluindo recursos que impedem ou restringem o uso ou a cópia de qualquer Conteúdo ou impõem limitações ao uso do Site e/ou do Conteúdo nele contido.
-Desprezar, manchar ou prejudicar nossa opinião e/ou do Site.
-Use qualquer informação obtida do Site para assediar, abusar ou prejudicar outra pessoa.
-Faça uso indevido de nossos serviços de suporte ou envie relatórios falsos de abuso ou má conduta.
-Usar o Site de maneira inconsistente com quaisquer leis ou regulamentos aplicáveis.
-Envolver-se em enquadramento não autorizado ou link para o Site.
-Carregar ou transmitir (ou tentar carregar ou transmitir) vírus, cavalos de Tróia ou outro material, incluindo uso excessivo de letras maiúsculas e spam (postagem contínua de texto repetitivo), que interfira no uso e aproveitamento ininterrupto do Site ou modifica, prejudica, interrompe, altera ou interfere com o uso, recursos, funções, operação ou manutenção do Site.
-Envolver-se em qualquer uso automatizado do Sistema, como usar scripts para enviar comentários ou mensagens, ou usar qualquer mineração de dados, robôs ou ferramentas semelhantes de coleta e extração de dados.
-Exclua o aviso de direitos autorais ou outros direitos de propriedade de qualquer conteúdo.
-Tente se passar por outro usuário ou pessoa ou use o nome de usuário de outro usuário.
-Carregar ou transmitir (ou tentar carregar ou transmitir) qualquer material que atue como um mecanismo passivo ou ativo de coleta ou transmissão de informações, incluindo, sem limitação, formatos de intercâmbio de gráficos claros (“gifs”), pixels 1x1, web bugs, cookies ou outros dispositivos semelhantes (às vezes chamados de “spyware” ou “mecanismos de coleta passiva” ou “pcms”.
-Interferir, interromper ou criar um ônus indevido no Site ou nas redes ou serviços conectados ao Site.
-Assediar, incomodar, intimidar ou ameaçar qualquer um de nossos funcionários ou agentes envolvidos em fornecer qualquer parte do Site.
-Tentar contornar quaisquer medidas do Site destinadas a impedir ou restringir o acesso ao Site ou a qualquer parte do Site.
-Copie ou adaptar o software do Site, incluindo, mas não limitado a Flash, PHP, HTML, JavaScript ou outro código.
-Exceto conforme permitido pela lei aplicável, decifrar, descompilar, desmontar ou fazer engenharia reversa de qualquer software que compreenda ou de alguma forma faça parte do Site.
-Exceto se resultar do uso padrão do mecanismo de pesquisa ou do navegador da Internet, usar, iniciar, desenvolver ou distribuir qualquer sistema automatizado, incluindo, sem limitação, qualquer spider, robô, utilitário de trapaça, scraper ou leitor offline que acesse o Site, ou usando ou iniciando qualquer script não autorizado ou outro software.
-Fazer qualquer uso não autorizado do Site, incluindo coleta de nomes de usuários e/ou endereços de e-mail de usuários por meios eletrônicos ou outros com a finalidade de enviar e-mails não solicitados, ou criar contas de usuários por meios automatizados ou sob falsos pretextos.
-Usar o Site como parte de qualquer esforço para competir conosco ou usar o Site e/ou o conteúdo para qualquer empreendimento ou empreendimento comercial de geração de receita.
-Use o Site para anunciar ou oferecer a venda de bens e serviços.
-Venda ou transfira seu perfil.
+* Recuperar sistematicamente dados ou outro conteúdo do Site para criar ou compilar, direta ou indiretamente, uma coleção, compilação, banco de dados ou diretório sem nossa permissão por escrito.
+* Enganar ou fraudar a nós e a outros usuários, especialmente em qualquer tentativa de obter informações confidenciais da conta, como senhas de usuários.
+* Contornar, desabilitar ou interferir de outra forma nos recursos relacionados à segurança do Site, incluindo recursos que impedem ou restringem o uso ou a cópia de qualquer Conteúdo ou impõem limitações ao uso do Site e/ou do Conteúdo nele contido.
+* Desprezar, manchar ou prejudicar nossa opinião e/ou do Site.
+* Use qualquer informação obtida do Site para assediar, abusar ou prejudicar outra pessoa.
+* Faça uso indevido de nossos serviços de suporte ou envie relatórios falsos de abuso ou má conduta.
+* Usar o Site de maneira inconsistente com quaisquer leis ou regulamentos aplicáveis.
+* Envolver-se em enquadramento não autorizado ou link para o Site.
+* Carregar ou transmitir (ou tentar carregar ou transmitir) vírus, cavalos de Tróia ou outro material, incluindo uso excessivo de letras maiúsculas e spam (postagem contínua de texto repetitivo), que interfira no uso e aproveitamento ininterrupto do Site ou modifica, prejudica, interrompe, altera ou interfere com o uso, recursos, funções, operação ou manutenção do Site.
+* Envolver-se em qualquer uso automatizado do Sistema, como usar scripts para enviar comentários ou mensagens, ou usar qualquer mineração de dados, robôs ou ferramentas semelhantes de coleta e extração de dados.
+* Exclua o aviso de direitos autorais ou outros direitos de propriedade de qualquer conteúdo.
+* Tente se passar por outro usuário ou pessoa ou use o nome de usuário de outro usuário.
+* Carregar ou transmitir (ou tentar carregar ou transmitir) qualquer material que atue como um mecanismo passivo ou ativo de coleta ou transmissão de informações, incluindo, sem limitação, formatos de intercâmbio de gráficos claros (“gifs”), pixels 1x1, web bugs, cookies ou outros dispositivos semelhantes (às vezes chamados de “spyware” ou “mecanismos de coleta passiva” ou “pcms”.
+* Interferir, interromper ou criar um ônus indevido no Site ou nas redes ou serviços conectados ao Site.
+* Assediar, incomodar, intimidar ou ameaçar qualquer um de nossos funcionários ou agentes envolvidos em fornecer qualquer parte do Site.
+* Tentar contornar quaisquer medidas do Site destinadas a impedir ou restringir o acesso ao Site ou a qualquer parte do Site.
+* Copie ou adaptar o software do Site, incluindo, mas não limitado a Flash, PHP, HTML, JavaScript ou outro código.
+* Exceto conforme permitido pela lei aplicável, decifrar, descompilar, desmontar ou fazer engenharia reversa de qualquer software que compreenda ou de alguma forma faça parte do Site.
+* Exceto se resultar do uso padrão do mecanismo de pesquisa ou do navegador da Internet, usar, iniciar, desenvolver ou distribuir qualquer sistema automatizado, incluindo, sem limitação, qualquer spider, robô, utilitário de trapaça, scraper ou leitor offline que acesse o Site, ou usando ou iniciando qualquer script não autorizado ou outro software.
+* Fazer qualquer uso não autorizado do Site, incluindo coleta de nomes de usuários e/ou endereços de e-mail de usuários por meios eletrônicos ou outros com a finalidade de enviar e-mails não solicitados, ou criar contas de usuários por meios automatizados ou sob falsos pretextos.
+* Usar o Site como parte de qualquer esforço para competir conosco ou usar o Site e/ou o conteúdo para qualquer empreendimento ou empreendimento comercial de geração de receita.
+* Use o Site para anunciar ou oferecer a venda de bens e serviços.
+* Venda ou transfira seu perfil.
 ## 6. CONTRIBUIÇÕES GERADAS POR USUÁRIOS
 O Site pode convidá-lo para conversar, contribuir ou participar de blogs, quadros de mensagens, fóruns online e outras funcionalidades, e pode fornecer a você a oportunidade de criar, enviar, postar, exibir, transmitir, executar , publicar, distribuir ou transmitir conteúdo e materiais para nós ou no Site, incluindo, entre outros, textos, vídeos, áudios, fotografias, gráficos, comentários, sugestões ou informações pessoais ou outros materiais. As contribuições podem ser visualizadas por outros usuários do Site e por meio de sites de terceiros. Como tal, quaisquer contribuições que você transmitir podem ser tratadas como não confidenciais e não proprietárias. Ao criar ou fazer quaisquer contribuições, você declara e garante que:
-A criação, distribuição, transmissão, exibição pública ou desempenho e o acesso, download ou cópia de suas contribuições não infringem e não infringirão os direitos de propriedade, incluindo mas não limitado a direitos autorais, patentes, marcas registradas, segredos comerciais ou direitos morais de terceiros.
-Você é o criador e proprietário ou possui as licenças, direitos, consentimentos, liberações e permissões necessários para usar e autorizar a nós, ao Site e a outros usuários do Site a usar suas contribuições de qualquer maneira contemplada pelo Site e este Termos de uso.
-Você tem o consentimento, liberação e/ou permissão por escrito de cada pessoa individual identificável em suas contribuições para usar o nome ou imagem de cada pessoa individual identificável para permitir a inclusão e o uso de suas contribuições de qualquer maneira contemplada pelo Site e este Termos de Uso.
-Suas contribuições não são falsas, imprecisas ou enganosas.
-Suas contribuições não são publicidade não solicitada ou não autorizada, materiais promocionais, esquemas de pirâmide, correntes, spam, mala direta ou outras formas de solicitação.
-Suas contribuições não são obscenas, lascivas, imundas, violentas, assediantes, difamatórias, caluniosas ou censuráveis ​​(conforme determinado por nós).
-Suas contribuições não ridicularizam, zombam, menosprezam, intimidam ou abusam de ninguém.
-Suas contribuições não são usadas para assediar ou ameaçar (no sentido legal desses termos) qualquer outra pessoa e para promover violência contra uma pessoa ou classe específica de pessoas.
-Suas contribuições não violam nenhuma lei, regulamento ou regra aplicável.
-Suas contribuições não violam os direitos de privacidade ou publicidade de terceiros.
-Suas contribuições não violam nenhuma lei aplicável sobre pornografia infantil, ou de outra forma destinadas a proteger a saúde ou o bem-estar de menores.
-Suas contribuições não incluem comentários ofensivos relacionados a raça, nacionalidade, gênero, preferência sexual ou deficiência física.
-Suas contribuições não violam ou vinculam a material que viole qualquer disposição destes Termos de Uso ou qualquer lei ou regulamento aplicável.
+* A criação, distribuição, transmissão, exibição pública ou desempenho e o acesso, download ou cópia de suas contribuições não infringem e não infringirão os direitos de propriedade, incluindo mas não limitado a direitos autorais, patentes, marcas registradas, segredos comerciais ou direitos morais de terceiros.
+* Você é o criador e proprietário ou possui as licenças, direitos, consentimentos, liberações e permissões necessários para usar e autorizar a nós, ao Site e a outros usuários do Site a usar suas contribuições de qualquer maneira contemplada pelo Site e este Termos de uso.
+* Você tem o consentimento, liberação e/ou permissão por escrito de cada pessoa individual identificável em suas contribuições para usar o nome ou imagem de cada pessoa individual identificável para permitir a inclusão e o uso de suas contribuições de qualquer maneira contemplada pelo Site e este Termos de Uso.
+* Suas contribuições não são falsas, imprecisas ou enganosas.
+* Suas contribuições não são publicidade não solicitada ou não autorizada, materiais promocionais, esquemas de pirâmide, correntes, spam, mala direta ou outras formas de solicitação.
+* Suas contribuições não são obscenas, lascivas, imundas, violentas, assediantes, difamatórias, caluniosas ou censuráveis ​​(conforme determinado por nós).
+* Suas contribuições não ridicularizam, zombam, menosprezam, intimidam ou abusam de ninguém.
+* Suas contribuições não são usadas para assediar ou ameaçar (no sentido legal desses termos) qualquer outra pessoa e para promover violência contra uma pessoa ou classe específica de pessoas.
+* Suas contribuições não violam nenhuma lei, regulamento ou regra aplicável.
+* Suas contribuições não violam os direitos de privacidade ou publicidade de terceiros.
+* Suas contribuições não violam nenhuma lei aplicável sobre pornografia infantil, ou de outra forma destinadas a proteger a saúde ou o bem-estar de menores.
+* Suas contribuições não incluem comentários ofensivos relacionados a raça, nacionalidade, gênero, preferência sexual ou deficiência física.
+* Suas contribuições não violam ou vinculam a material que viole qualquer disposição destes Termos de Uso ou qualquer lei ou regulamento aplicável.
 
 Qualquer uso do Site em violação ao exposto viola estes Termos de Uso e pode resultar, entre outras coisas, na rescisão ou suspensão de seus direitos de uso do Site.
 
