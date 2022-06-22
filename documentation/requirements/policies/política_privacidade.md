@@ -66,7 +66,7 @@ Ao concordar, saiba que podemos utilizar seus dados tão somente para processar 
 solicitações, efetuar sugestões de interesse, incluindo e-mails marketing e relativos a
 assuntos que achamos ter relevância para você; também podemos utilizar seus dados para
 fazer contato futuro, através de qualquer meio (sempre de acordo com a Política de
-Privacidade), sendo primordial o **<sub>aceite</sub>** aos termos.
+Privacidade), sendo primordial o **aceite** aos termos.
 
 O PetLife também se reserva ao direito de modificar a presente Política de Privacidade a
 qualquer tempo, mantendo-a atualizada e disponível em seu site, sendo recomendável a
