@@ -77,16 +77,14 @@ USUÁRIOS MAIORES DE 18 (DEZOITO) ANOS, SENDO VEDADO O CADASTRO DE CRIANÇAS
 E/OU ADOLESCENTES.
 
 ## DOS DADOS COLETADOS
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="128*"/>
-
-	<col width="128*"/>
+<table>
+	<col>
 
 	<tr valign="top">
-		<td width="50%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.1cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"><p align="center">
+		<td><p align="center">
 			O que podemos coletar</p>
 		</td>
-		<td width="50%" style="border: 1px solid #000000; padding: 0.1cm"><p align="center">
+		<td><p align="center">
 			Para que se coleta?</p>
 		</td>
 	</tr>
@@ -100,7 +98,7 @@ E/OU ADOLESCENTES.
 	<tr></tr>
 	<tr></tr>
 	<tr>
-		<td colspan="2" width="100%" valign="top" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"><p align="center">
+		<td><p align="center">
 			Dados Cadastrais</p>
 		</td>
 	</tr>
@@ -114,10 +112,10 @@ E/OU ADOLESCENTES.
 	<tr></tr>
 	<tr></tr>
 	<tr valign="top">
-		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"><p>
+		<td ><p>
 			Nome completo do usuário</p>
 		</td>
-		<td rowspan="6" width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"><p>
+		<td><p>
 			I.Identificar e autenticar o Usuário da Plataforma.</p>
 			<p>II.Possibilitar a confirmação da utilização serviço,
 			efetuar cobranças.</p>
@@ -151,7 +149,7 @@ E/OU ADOLESCENTES.
 	<tr></tr>
 	<tr></tr>
 	<tr valign="top">
-		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"><p>
+		<td><p>
 			Número do CPF/CNPJ</p>
 		</td>
 	</tr>
@@ -165,7 +163,7 @@ E/OU ADOLESCENTES.
 	<tr></tr>
 	<tr></tr>
 	<tr valign="top">
-		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"><p>
+		<td><p>
 			Telefone de Contato/Celular</p>
 		</td>
 	</tr>
@@ -179,7 +177,7 @@ E/OU ADOLESCENTES.
 	<tr></tr>
 	<tr></tr>
 	<tr valign="top">
-		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"><p>
+		<td><p>
 			E-mail</p>
 		</td>
 	</tr>
@@ -193,7 +191,7 @@ E/OU ADOLESCENTES.
 	<tr></tr>
 	<tr></tr>
 	<tr valign="top">
-		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"><p>
+		<td><p>
 			Credenciais de login no sistema</p>
 		</td>
 	</tr>
@@ -207,7 +205,7 @@ E/OU ADOLESCENTES.
 	<tr></tr>
 	<tr></tr>
 	<tr valign="top">
-		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"><p>
+		<td><p>
 			Data de nascimento</p>
 		</td>
 	</tr>
@@ -221,7 +219,7 @@ E/OU ADOLESCENTES.
 	<tr></tr>
 	<tr></tr>
 	<tr>
-		<td colspan="2" width="100%" valign="top" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"><p align="center">
+		<td><p align="center">
 			Dados De Identificação Digital</p>
 		</td>
 	</tr>
@@ -235,11 +233,11 @@ E/OU ADOLESCENTES.
 	<tr></tr>
 	<tr></tr>
 	<tr valign="top">
-		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0cm"><p>
+		<td><p>
 			Endereço IP e Porta Lógica de Origem;Cookies; Telas acessadas
 			pelo usuário;Geolocalização; Dispositivos;</p>
 		</td>
-		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0cm; padding-bottom: 0.1cm; padding-left: 0.1cm; padding-right: 0.1cm"><p>
+		<td><p>
 			I.Cumprir com as obrigações legais de manutenção de registros</p>
 			<p>estabelecidas pelo Marco Civil da Internet - Lei 12.965/2014;</p>
 			<p>II.Monitoramento de segurança dos Nossos Ambientes em prol da
