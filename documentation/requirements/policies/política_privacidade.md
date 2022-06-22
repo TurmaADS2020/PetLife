@@ -77,9 +77,7 @@ USUÁRIOS MAIORES DE 18 (DEZOITO) ANOS, SENDO VEDADO O CADASTRO DE CRIANÇAS
 E/OU ADOLESCENTES.
 
 ## DOS DADOS COLETADOS
-|O que podemos coletar?|Para que se coleta?|
-|----------------------|-------------------|
-|Dados Cadastrais|
-|Nome completo do usuário </br> Número do CPF/CNPJ </br> Telefone de contato/Celular </br> E-mail </br> Credenciais de login no sistema </br> Data de nascimento|I.Identificar e autenticar o Usuário da Plataforma. </br> II.Possibilitar a confirmação da utilização serviço, efetuar cobranças. </br> III. Cumprir com as obrigações legais de manutenção de registros estabelecidas pelo Marco Civil da Internet - Lei 12.965/2014 e LGPD. </br> IV.Obter informações acerca do que é produzido pelo usuário ou assuntos pessoais de seu interesse, para um melhor gerenciamento de sua conta dentro da aplicação. Assertividade e segurança no acesso: manter suas informações cadastrais corretas e atualizadas, permitindo a verificação e confirmação da sua identidade, a prevenção de fraude, bem como evitar o contato de contatos indevidos. </br> V. Relacionamento do cliente com o Usuário. X. Envio de Newsletter. </br> VI. Envio de Newsletter.|
-|Dados De Identificação Digital|
-|Endereço IP e Porta Lógica de Origem; </br> Cookies; </br> Telas acessadas pelo usuário; </br> Geolocalização; </br> Dispositivo; </br>|I.Cumprir com as obrigações legais de manutenção de registros estabelecidas pelo Marco Civil da Internet - Lei 12.965/2014; </br> II.Monitoramento de segurança dos Nossos Ambientes em prol da sua e da nossa segurança.|
+<figure>
+<figcaption>Fluxo Principal Adotante</figcaption>
+<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/table1_politica_privacidade.png?raw=true">
+</figure>
