@@ -1,5 +1,7 @@
 package com.petlife.mapper;
 
+import java.util.List;
+
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
@@ -21,4 +23,10 @@ private ModelMapper modelMapper;
 	public EmpresaDTO toDto(EmpresaEntity obj) {
 		return modelMapper.map(obj, EmpresaDTO.class);
 	}
+
+	public List<EmpresaDTO> mapByListObj(List<EmpresaEntity> findAll) {
+		
+		return null;
+	}
+
 }

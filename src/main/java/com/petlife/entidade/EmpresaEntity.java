@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -23,8 +25,17 @@ public class EmpresaEntity {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name ="idempresa")
+	@Column(name ="id_empresa")
 	private Long idempresa;
+	
+	@ManyToOne
+	@JoinColumn(name = "endereco_idendereco")
+	private EnderecoEntity idEndereco;
+	
+	//TODO
+		@ManyToOne
+		@JoinColumn(name = "arquivo_idarquivo")
+		private ArquivoEntity idArquivo;
 	
 	@Column(name ="ativo")
 	private Long ativo;
