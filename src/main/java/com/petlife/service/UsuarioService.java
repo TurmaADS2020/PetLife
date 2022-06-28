@@ -8,7 +8,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
+import com.petlife.dto.LoginUsuarioDTO;
 import com.petlife.dto.UsuarioDTO;
+import com.petlife.entidade.EnderecoEntity;
 import com.petlife.entidade.UsuarioEntity;
 import com.petlife.mapper.ArquivoMapper;
 import com.petlife.mapper.EnderecoMapper;
@@ -52,6 +54,18 @@ public class UsuarioService {
 	@Transactional 
 	public UsuarioDTO salvarUsuario(UsuarioDTO dto) throws Exception{
 			
+//			EnderecoEntity enderecoEntity = new EnderecoEntity();
+//			
+//			enderecoEntity.setIdEndereco(dto.getEndereco().getIdEndereco());
+//			enderecoEntity.setLogradouro(dto.getEndereco().getLogradouro());
+//			enderecoEntity.setNome(dto.getEndereco().getNome());
+//			enderecoEntity.setNumero(dto.getEndereco().getNumero());
+//			enderecoEntity.setBairro(dto.getEndereco().getBairro());
+//			enderecoEntity.setCidade(dto.getEndereco().getCidade());
+//			enderecoEntity.setUf(dto.getEndereco().getUf());
+//			enderecoEntity.setCep(dto.getEndereco().getCep());
+//			enderecoEntity.setReferencia(dto.getEndereco().getReferencia());
+
 			UsuarioEntity entity = new UsuarioEntity();
 			
 			entity.setId(dto.getId());
@@ -78,10 +92,32 @@ public class UsuarioService {
 				this.usuarioRepository.deleteById(id);
 			}
 		} catch (Exception e) {
-			log.error("<ERRO> UsuarioService.removerUsuario(Long id)" + e.getMessage());
+			log.error("<ERRO> UsuarioService.removerUsuario(Long id)" + 			e.getMessage());
 			e.printStackTrace();
 		}
 	}
+	
+	@SuppressWarnings("deprecation")
+	@Transactional
+	public LoginUsuarioDTO loginUsuario(String email) throws Exception {
+		try {
+			Optional<UsuarioEntity> usuarioEntity = existeEmailUsuario(email);
+			if (!StringUtils.isEmpty(usuarioEntity)) {
+				this.usuarioRepository.existsByEmail(email);
+			}
+		} catch (Exception e) {
+			log.error("Usuario inexistente!" + e.getMessage());
+			e.printStackTrace();
+		}
+		return null;
+	}
+//	public User loadUserByUsername(String email) {
+//		
+//		Optional<UsuarioDTO> usuarioOptional = usuarioRepository.findByEmail(email);
+//		UsuarioDTO usuario = usuarioOptional.orElseThrow(() -> 		new	UsernameNotFoundException("Usuario e ou senha invalidos"));
+//		
+//		return new User(email, usuario.getSenha(), null);
+//	}
 	
 	private UsuarioDTO converterParaDTO(UsuarioEntity entity) {
 		return this.usuarioMapper.toDto(entity);
@@ -95,5 +131,14 @@ public class UsuarioService {
 		}
 		return optional;
 		
+	}
+	
+	private Optional<UsuarioEntity> existeEmailUsuario(String email) throws Exception{
+
+		Optional<UsuarioEntity> optional = usuarioRepository.findByEmail(email);
+		if (!optional.isPresent()) {
+			System.out.println("E-mail não encontrado!");
+		}
+		return optional;
 	}
 }
