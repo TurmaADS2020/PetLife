@@ -1,9 +1,12 @@
 import { Request, Response } from "express";
 class HomeController {
-    public Home(req: Request, res: Response): Response {
-        //res.sendFile(this.pathPublic.concat('/index.html'))
-        console.log(req.cookies.UserToken);
-        return res.send('');
+    public Home(req: Request, res: Response): void {
+        let pathPublic:string = __dirname.replace('src', 'Public').replace('controller','')
+        res.sendFile(pathPublic.concat('/index.html'))
+    }
+    public PerfilUser(req: Request, res: Response): void{
+        let pathPublic:string = __dirname.replace('src', 'Public').replace('controller','')
+        res.sendFile(pathPublic.concat('/perfildousuario.html'))
     }
 
 }

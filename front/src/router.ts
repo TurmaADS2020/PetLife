@@ -6,6 +6,7 @@ const router: Router = Router()
 
 //MAPPEAR ROTAS AQUI!!!
 router.get("/teste",  homeController.Home)
+router.get("/PerfilUsuario", homeController.PerfilUser)
 router.get("/UserLogado",new UserController().ObtemCookieUser)
 router.post("/cadastrarUser", new UserController().CadastrarUser)
 
