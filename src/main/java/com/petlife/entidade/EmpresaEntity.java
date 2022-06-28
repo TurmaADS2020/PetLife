@@ -32,11 +32,6 @@ public class EmpresaEntity {
 	@JoinColumn(name = "endereco_idendereco")
 	private EnderecoEntity idEndereco;
 	
-	//TODO
-		@ManyToOne
-		@JoinColumn(name = "arquivo_idarquivo")
-		private ArquivoEntity idArquivo;
-	
 	@Column(name ="ativo")
 	private Long ativo;
 		
@@ -58,8 +53,6 @@ public class EmpresaEntity {
 	@Column(name ="senha")
 	private Long senha;
 	
-	@Column(name ="endereco_idendereco")
-	private Long endereco_idendereco;
 }
 
 

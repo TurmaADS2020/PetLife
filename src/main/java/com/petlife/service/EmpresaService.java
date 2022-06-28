@@ -63,7 +63,6 @@ public class EmpresaService {
 		entity.setResponsavel(dto.getResponsavel());
 		entity.setEmail(dto.getEmail());
 		entity.setSenha(dto.getSenha());
-		entity.setEndereco_idendereco(dto.getEndereco_idendereco());
 		
 		return converterParaDTO(this.empresaRepository.save(entity));
 		
