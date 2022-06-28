@@ -148,7 +148,7 @@ async function gerarObjecto() {
     }
     console.log(novocliente);
 
-    await fetch('/cadastrarUser', {
+    await fetch('http://c52d-191-210-249-71.ngrok.io/cadastrarUser', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
