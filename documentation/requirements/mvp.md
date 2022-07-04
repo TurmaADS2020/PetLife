@@ -4,7 +4,7 @@
 ### Turma ADS 2020 - Fatec
 
 <figure>
-<figcaption>Fluxo Principal Adotante</figcaption>
+<figcaption>Painel MVP</figcaption>
 <img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/tela_de_experimento_mvp.png?raw=true">
 </figure>
 
