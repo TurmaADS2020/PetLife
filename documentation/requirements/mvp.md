@@ -32,11 +32,11 @@ Adotante: </br>
 * Entra no site cadastra o perfil principal; </br>
 * Busca animais e inicia contato; </br>
 ## 8. Métricas
-* Visitar o site; </br>
-* Realizar cadastros; </br>
-* Realizar buscas; </br>
-* Visualizar informações de animais; </br>
-* Entrar em contato; </br>
+* Visitas no site; </br>
+* Cadastros realizados; </br>
+* Buscas realizadas; </br>
+* Visualizações de animais; </br>
+* Contagem de contatos; </br>
 
 ## 9. Critérios de Sucesso
 
