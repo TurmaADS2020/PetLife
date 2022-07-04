@@ -23,8 +23,20 @@ Ongs dispostas a anunciar seus animais na plataforma e possibilitar maior visibi
 Projeto Principal MVP: Catálogo virtual com possibilidade de visualizar fotos e informações dos animais, possibilidade de obter informações sobre as ongs.
 
 ## 7. Cenário/Fluxo Trabalho
+Doador:
+    * Entra no site cadastra o perfil principal;
+    * Cadastra os animais;
+    * Aguarda contato dos adotantes;
 
+Adotante:
+    * Entra no site cadastra o perfil principal;
+    * Busca animais e inicia contato;
 ## 8. Métricas
+    * Visitar o site;
+    * Realizar cadastros;
+    * Realizar buscas;
+    * Visualizar informações de animais;
+    * Entrar em contato;
 
 ## 9. Critérios de Sucesso
 
