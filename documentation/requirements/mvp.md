@@ -17,7 +17,7 @@ A aplicação será divulgada nas principais redes sociais e outdoor, o conteúd
 2. Pessoas físicas e jurídicas.
 
 ## 5. Suposição mais arriscada
-Ongs dispostas a anunciar seus animais na plataforma e possibilitar maior visibilidade, possibilitando a pessoa interessada visualizar fotos e informações dos animais criando conexões e possibilitando doações.
+Ongs dispostas a anunciar seus animais na plataforma em busca de maior visibilidade, possibilitando as pessoas interessadas visualizar fotos e informações dos animais criando conexões e possibilitando doações.
 
 ## 6. Formato do experimento
 Projeto Principal MVP: Catálogo virtual com possibilidade de visualizar fotos e informações dos animais, possibilidade de obter informações sobre as ongs.
