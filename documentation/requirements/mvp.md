@@ -5,7 +5,7 @@
 
 <figure>
 <figcaption>Painel MVP</figcaption>
-<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/tela_de_experimento_mvp1.png?raw=true">
+<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/tela_de_experimento_mvp2.png?raw=true">
 </figure>
 
 ## 1. Seguimento dos Clientes
