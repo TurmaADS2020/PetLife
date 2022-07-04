@@ -20,7 +20,7 @@ A aplicação será divulgada nas principais redes sociais e outdoor, o conteúd
 Ongs dispostas a anunciar seus animais na plataforma em busca de maior visibilidade, possibilitando as pessoas interessadas visualizar fotos e informações dos animais criando conexões e possibilitando doações.
 
 ## 6. Formato do experimento
-Projeto Principal MVP: Catálogo virtual com possibilidade de visualizar fotos e informações dos animais, possibilidade de obter informações sobre as ongs.
+Projeto Principal MVP: Catálogo virtual com possibilidade de visualizar fotos e informações dos animais e ongs.
 
 ## 7. Cenário/Fluxo Trabalho
 Doador: </br>
