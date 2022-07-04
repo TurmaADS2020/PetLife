@@ -3,6 +3,11 @@
 ### Início: 00/00/00 Fim: 00/00/00
 ### Turma ADS 2020 - Fatec
 
+<figure>
+<figcaption>Fluxo Principal Adotante</figcaption>
+<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/tela_de_experimento_mvp.png?raw=true">
+</figure>
+
 ## 1. Seguimento dos Clientes
 Ongs que trabalham com adoção de animais.
 
@@ -35,7 +40,7 @@ Adotante: </br>
 * Visitas no site; </br>
 * Cadastros realizados; </br>
 * Buscas realizadas; </br>
-* Visualizações de animais; </br>
+* Visualizações de registros; </br>
 * Contagem de contatos; </br>
 
 ## 9. Critérios de Sucesso
