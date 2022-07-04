@@ -7,6 +7,7 @@
 <figcaption>Painel MVP</figcaption>
 <img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/tela_de_experimento_mvp2.png?raw=true">
 </figure>
+Link para Editar Planilha: https://docs.google.com/spreadsheets/d/1d8mFDrg4Dwg6w8EfSU8uRapiykhuyKwn155W-uglXF0/edit?usp=sharing
 
 ## 1. Seguimento dos Clientes
 Ongs que trabalham com adoção de animais.
@@ -18,8 +19,8 @@ Estamos desenvolvendo uma aplicação para web com propósito de ajudar as Ongs 
 A aplicação será divulgada nas principais redes sociais e outdoor, o conteúdo também poderá ser divulgado em formato de link pelas Ongs.
 
 ## 4. Clientes Envolvidos
-1. Ongs.
-2. Pessoas físicas e jurídicas.
+* Ongs.
+* Pessoas físicas e jurídicas.
 
 ## 5. Suposição mais arriscada
 Ongs dispostas a anunciar seus animais na plataforma em busca de maior visibilidade, possibilitando as pessoas interessadas visualizar fotos e informações dos animais criando conexões e possibilitando doações.
