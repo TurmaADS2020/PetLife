@@ -24,13 +24,13 @@ Projeto Principal MVP: Catálogo virtual com possibilidade de visualizar fotos e
 
 ## 7. Cenário/Fluxo Trabalho
 Doador: </br>
-    * Entra no site cadastra o perfil principal; </br>
-    * Cadastra os animais; </br>
-    * Aguarda contato dos adotantes; </br>
+* Entra no site cadastra o perfil principal; </br>
+* Cadastra os animais; </br>
+* Aguarda contato dos adotantes; </br>
 
 Adotante: </br>
-    * Entra no site cadastra o perfil principal; </br>
-    * Busca animais e inicia contato; </br>
+* Entra no site cadastra o perfil principal; </br>
+* Busca animais e inicia contato; </br>
 ## 8. Métricas
 * Visitar o site; </br>
 * Realizar cadastros; </br>
