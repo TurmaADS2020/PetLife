@@ -72,22 +72,12 @@ O aplicativo apresenta os cadastros de pet com uma imagem principal, nome da ONG
 
 Ao clicar no botão contato o usuário será direcionado a uma tela que possui mais informações sobre a ONGs possibilitando que o usuário entre em contato com a mesma e concluindo o processo de adoção.
 
-<figure>
-<figcaption>Fluxo Principal Adotante</figcaption>
-<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/dv_principal_adotante.png?raw=true">
-</figure>
-
 ### 6.3.2 Fluxo Doador
 O usuário doador com o processo de cadastro concluído realizará a autenticação no aplicativo. Na tela principal o usuário visualiza um botão para acessar o perfil onde será apresentado todos os pets cadastrados por ele e possibilidade de realizar novo cadastro.
 
 O Usuário poderá sempre que desejar atualizar suas informações possibilitando que o adotante tenha acesso a dados atualizados.
 
 Os contatos feitos pelo adotante serão por meios externos ao aplicativo.
-
-<figure>
-<figcaption>Fluxo Principal Doador</figcaption>
-<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/dv_principal_doador.png?raw=true">
-</figure>
 
 ### 6.3.3 Fluxo Principal do Processo de Doação
 Fluxo apresenta o processo principal da aplicação com todas as exigências sanadas, as exceções serão apresentados nos documentos de casos de uso armazenados no diretório “PetLife/documentation/requirements/use_cases/” e referenciados em tabela no tópico de Casos de Uso.
