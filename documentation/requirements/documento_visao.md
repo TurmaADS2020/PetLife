@@ -10,7 +10,6 @@ O projeto Pet Life pretende auxiliar pessoas que querem adotar animais. A plataf
 
 ## 3. Escopo do Produto
 
-
 ## 4. Não está no Escopo do Produto
 * Responsabilidade pela guarda e cuidados dos animais;
 * Responsabilidade de realizar ou acompanhar as doações;
