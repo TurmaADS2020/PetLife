@@ -7,8 +7,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.BatchSize;
@@ -32,15 +30,6 @@ public class UsuarioEntity {
 	@Column(name = "id_usuario")
 	private Long id;
 	
-	@ManyToOne
-	@JoinColumn(name = "endereco_idendereco")
-	private EnderecoEntity idEndereco;
-	
-	//TODO
-	@ManyToOne
-	@JoinColumn(name = "arquivo_idarquivo")
-	private ArquivoEntity idArquivo;
-	
 	@Column(name = "ativo")
 	private Long ativo;
 	
@@ -63,4 +52,25 @@ public class UsuarioEntity {
 	
 	@Column(name = "telefone")
 	private Long telefone;
+	
+	@Column(name = "rua")
+	private String rua;
+	
+	@Column(name = "bairro")
+	private String bairro;
+	
+	@Column(name = "cidade")
+	private String cidade;
+	
+	@Column(name = "cep")
+	private String cep;
+	
+	@Column(name = "uf")
+	private String uf;
+	
+	@Column(name = "referencia")
+	private String referencia;
+	
+	@Column(name = "numero_casa")
+	private Long numeroCasa;
 }

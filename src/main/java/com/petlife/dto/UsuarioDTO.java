@@ -17,9 +17,6 @@ import lombok.NoArgsConstructor;
 public class UsuarioDTO {
 	
 	private Long id;
-	private EnderecoDTO endereco;
-	//TODO
-	private ArquivoDTO arquivo;
 	private Long ativo;
 	private String cpf;
 	private LocalDate dataCadastro;
@@ -27,5 +24,12 @@ public class UsuarioDTO {
 	private String email;
 	private String senha;
 	private Long telefone;
+	private String rua;
+	private String bairro;
+	private String cidade;
+	private String cep;
+	private String uf;
+	private String referencia;
+	private Long numeroCasa;
 
 }

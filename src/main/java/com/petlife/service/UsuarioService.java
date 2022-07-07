@@ -10,10 +10,7 @@ import org.springframework.util.StringUtils;
 
 import com.petlife.dto.LoginUsuarioDTO;
 import com.petlife.dto.UsuarioDTO;
-import com.petlife.entidade.EnderecoEntity;
 import com.petlife.entidade.UsuarioEntity;
-import com.petlife.mapper.ArquivoMapper;
-import com.petlife.mapper.EnderecoMapper;
 import com.petlife.mapper.UsuarioMapper;
 import com.petlife.repository.UsuarioRepository;
 
@@ -31,11 +28,13 @@ public class UsuarioService {
 	@Autowired
 	private UsuarioMapper usuarioMapper;
 	
-	@Autowired
-	private EnderecoMapper enderecoMapper;
+	//TODO
+	//@Autowired
+	//private EnderecoMapper enderecoMapper;
 	
-	@Autowired
-	private ArquivoMapper arquivoMapper;
+	//TODO
+	//@Autowired
+	//private ArquivoMapper arquivoMapper;
 	
 	@Transactional(readOnly = true)
 	public List<UsuarioDTO> listUsuario() {
@@ -53,24 +52,10 @@ public class UsuarioService {
 	
 	@Transactional 
 	public UsuarioDTO salvarUsuario(UsuarioDTO dto) throws Exception{
-			
-//			EnderecoEntity enderecoEntity = new EnderecoEntity();
-//			
-//			enderecoEntity.setIdEndereco(dto.getEndereco().getIdEndereco());
-//			enderecoEntity.setLogradouro(dto.getEndereco().getLogradouro());
-//			enderecoEntity.setNome(dto.getEndereco().getNome());
-//			enderecoEntity.setNumero(dto.getEndereco().getNumero());
-//			enderecoEntity.setBairro(dto.getEndereco().getBairro());
-//			enderecoEntity.setCidade(dto.getEndereco().getCidade());
-//			enderecoEntity.setUf(dto.getEndereco().getUf());
-//			enderecoEntity.setCep(dto.getEndereco().getCep());
-//			enderecoEntity.setReferencia(dto.getEndereco().getReferencia());
 
 			UsuarioEntity entity = new UsuarioEntity();
 			
 			entity.setId(dto.getId());
-			entity.setIdEndereco(enderecoMapper.toEntity(dto.getEndereco()));
-			entity.setIdArquivo(arquivoMapper.toEntity(dto.getArquivo()));
 			entity.setAtivo(dto.getAtivo());
 			entity.setCpf(dto.getCpf());
 			entity.setDataCadastro(dto.getDataCadastro());
@@ -78,6 +63,13 @@ public class UsuarioService {
 			entity.setEmail(dto.getEmail());
 			entity.setSenha(dto.getSenha());
 			entity.setTelefone(dto.getTelefone());
+			entity.setRua(dto.getRua());
+			entity.setBairro(dto.getBairro());
+			entity.setCidade(dto.getCidade());
+			entity.setCep(dto.getCep());
+			entity.setUf(dto.getUf());
+			entity.setReferencia(dto.getReferencia());
+			entity.setNumeroCasa(dto.getNumeroCasa());
 			
 			return converterParaDTO(this.usuarioRepository.save(entity));
 		
