@@ -2437,3 +2437,24 @@ section {
   width: 50%!important;
   height: 10vh!important;
 }
+ /* aqui ira bloqueear o animal */
+.realizarologin{
+  position: fixed;
+  z-index: 999;
+  bottom: 12px;
+  right: 70px;
+  height: 100px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: bold;
+}
+
+.realizarologin:hover{
+  color: white;
+}
