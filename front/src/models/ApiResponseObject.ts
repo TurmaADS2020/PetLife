@@ -10,3 +10,35 @@ export class ApiResponseObject{
 
     }
 }
+
+export type UserList = User[]
+
+export interface User {
+  id: number
+  endereco: Endereco
+  arquivo: Arquivo
+  ativo: number
+  cpf: string
+  dataCadastro: string
+  nome: string
+  email: string
+  senha: string
+  telefone: number
+}
+
+export interface Endereco {
+  idEndereco: number
+  logradouro: string
+  nome: string
+  numero: number
+  bairro: string
+  cidade: string
+  uf: string
+  cep: string
+  referencia: string
+}
+
+export interface Arquivo {
+  id: number
+  nome: string
+}

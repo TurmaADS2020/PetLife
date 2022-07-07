@@ -1,15 +1,3 @@
-window.addEventListener("load", () => {
-    Swal.fire({
-        title: 'Coockies ',
-        html: 'Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossa plataforma. Ao utilizar o PetLife, você declara estar de acordo com nossa <a href="#">Política de Uso de Cookies</a>',
-        showClass: {
-            popup: 'animate__animated animate__fadeInDown'
-        },
-        hideClass: {
-            popup: 'animate__animated animate__fadeOutUp'
-        }
-    })
-})
 
 
 function limpa_formulário_cep() {
@@ -124,8 +112,8 @@ async function gerarObjecto() {
 
     let novocliente = {
         "endereco": {
-            //"idEndereco": 1,
-            "logradouro": rua,
+            "idEndereco": 1,
+            "logradouro": rua, //tirar depois
             "nome": rua,
             "numero": numeroimovel,
             "bairro": bairro,
@@ -134,8 +122,8 @@ async function gerarObjecto() {
             "cep": cep,
             "referencia": referencia
         },
-        "arquivo":{
-            "id":1
+        "arquivo": {
+            "id": 1 //tirar depois
         },
         "ativo": 1,
         "cpf": cpf_cnpj,
@@ -157,18 +145,41 @@ async function gerarObjecto() {
     });
 }
 
-function gerarObjectologin() {
+async function gerarObjectologin() {
 
-    var campologin = document.getElementById("emailusuario").value;
-    var camposenha = document.getElementById("senhausuario").value;
+    var campologin = document.getElementById("login_emailusuario").value;
+    var camposenha = document.getElementById("login_senhausuario").value;
 
     let realizarlogin = {
         "email": campologin,
         "senha": camposenha
 
     }
-    console.log(realizarlogin);
 
+    let result = await fetch('http://localhost/Login', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+
+        body: JSON.stringify(realizarlogin)
+    });
+
+    if (result.status == 500)
+        return Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: result.statusText,
+        });
+
+    if (result.status == 400)
+        return Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: "Login ou Senha Invalido!!",
+        })
+
+    window.close();
 }
 
 

@@ -1,6 +1,6 @@
 import express from "express";
 import { router } from "./router";
-import BodyParser from 'body-parser'
+import bodyParser from 'body-parser'
 
 const cookieParser = require("cookie-parser");
 
@@ -16,11 +16,12 @@ class  Server{
 
     private middleware(){        
         
-        this.server.use(express.json())
+       
         this.server.use(express.static("Public"))        
-        this.server.use(BodyParser.urlencoded({ extended: true }));
+        this.server.use(bodyParser.urlencoded({ extended: true }));
+        this.server.use(express.json())
         this.server.use(cookieParser());    
-            
+        
     }
 
     private router(){
