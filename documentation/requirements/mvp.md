@@ -32,12 +32,13 @@ Projeto Principal MVP: Catálogo virtual com possibilidade de visualizar fotos e
 |Nº|Nome|Descrição|
 |--|----|---------|
 |RF001|Manter Cadastros Usuários |Os usuários poderão incluir, visualizar e alterar suas informações.|
-|RF002|Recuperação de Senha|Os usuários poderão realizar recuperação de senha.|
-|RF003|Cancelar cadastro|Os usuários poderão cancelar o cadastro sempre que desejarem|
-|RF004|Inclusão de Pet|Usuários do tipo ONG's poderão incluir, visualizar e alterar informações de pet.|
-|RF005|Adotar|Usuários poderão clicar no botão adotar e será informado de como realizar esse procedimento.|
-|RF006|Apresentar Resultados|A tela principal da aplicação apresentará o total de "Animais doados" e "Animais disponíveis"|
-|RF007|Visualizar slider de Imagens|Usuários ao clicar na imagem apresentada na pesquisa visualizará um Slider com mais imagens do Pet em questão.|
+|RF002|Realizar Login|Os usuários cadastrados poderam realizar Login.|
+|RF003|Recuperar Senha|Os usuários poderão realizar recuperação de senha.|
+|RF004|Cancelar cadastro|Os usuários poderão cancelar o cadastro sempre que desejarem|
+|RF005|Inclusão de Pet|Usuários do tipo ONG's poderão incluir, visualizar e alterar informações de pet.|
+|RF006|Adotar|Usuários poderão clicar no botão adotar e será informado de como realizar esse procedimento.|
+|RF007|Apresentar Resultados|A tela principal da aplicação apresentará o total de "Animais doados" e "Animais disponíveis"|
+|RF008|Visualizar slider de Imagens|Usuários ao clicar na imagem apresentada na pesquisa visualizará um Slider com mais imagens do Pet em questão.|
 
 ## 6.2 Requisitos Não Funcionais
 |Nº|Nome|Descrição|
