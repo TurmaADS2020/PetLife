@@ -29,7 +29,7 @@ Ongs dispostas a anunciar seus animais na plataforma em busca de maior visibilid
 Projeto Principal MVP: Catálogo virtual com possibilidade de visualizar fotos e informações dos animais e ongs.
 
 <figure>
-<figcaption>Caso de Uso Pet Life</figcaption>
+<figcaption>Diagrama de Caso de Uso</figcaption>
 <img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/mvp_caso_uso.png?raw=true">
 </figure>
 
