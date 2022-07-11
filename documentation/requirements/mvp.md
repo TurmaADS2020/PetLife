@@ -34,8 +34,13 @@ Projeto Principal MVP: Catálogo virtual com possibilidade de visualizar fotos e
 </figure>
 
 <figure>
-<figcaption>Diagrama de Atividade</figcaption>
+<figcaption>Diagrama de Atividade Doação</figcaption>
 <img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/uml_atividade_doacao.png?raw=true">
+</figure>
+
+<figure>
+<figcaption>Diagrama de Atividade Incluir Pet</figcaption>
+<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/uml_atividade_incluirpet.png?raw=true">
 </figure>
 
 ## 6.1 Requisitos Funcionais
