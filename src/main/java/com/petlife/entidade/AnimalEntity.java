@@ -1,6 +1,6 @@
 package com.petlife.entidade;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -26,13 +26,10 @@ public class AnimalEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name ="idanimal")
-	private Long idanimal;
+	private Long id;
 	
-	@Column(name ="tipoEspecie")
-	private String tipoEspecie;
-	
-	@Column(name ="dat_cadastro")
-	private LocalDateTime dat_cadastro;
+	@Column(name ="data_cadastro")
+	private LocalDate dataCadastro;
 	
 	@Column(name ="nome")
 	private String nome;
@@ -43,12 +40,23 @@ public class AnimalEntity {
 	@Column(name ="sexo")
 	private String sexo;
 	
-		
 	@Column(name ="temperamento")
 	private String temperamento;
 	
-	@Column(name ="observacao")
-	private String observacao;
+	@Column(name ="relato")
+	private String relato;
+	
+	@Column(name ="raca")
+	private String raca;
+	
+	@Column(name ="idade")
+	private Long idade;
+	
+	@Column(name ="castrado")
+	private String castrado;
+	
+	@Column(name ="vacinado")
+	private String vacinado;
 
 }
 

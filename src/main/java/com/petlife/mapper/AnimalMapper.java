@@ -10,16 +10,15 @@ import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 @Component
-
 public class AnimalMapper {
-private ModelMapper modelMapper;
-	
+
+	private ModelMapper modelMapper;
+
 	public AnimalEntity toEntity(AnimalDTO dto) {
 		return modelMapper.map(dto, AnimalEntity.class);
 	}
-	
+
 	public AnimalDTO toDto(AnimalEntity obj) {
 		return modelMapper.map(obj, AnimalDTO.class);
 	}
 }
-

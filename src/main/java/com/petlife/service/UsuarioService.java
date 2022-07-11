@@ -72,7 +72,6 @@ public class UsuarioService {
 			entity.setNumeroCasa(dto.getNumeroCasa());
 			
 			return converterParaDTO(this.usuarioRepository.save(entity));
-		
 	}
 	
 	@SuppressWarnings("deprecation")
