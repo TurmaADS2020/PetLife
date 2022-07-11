@@ -33,6 +33,11 @@ Projeto Principal MVP: Catálogo virtual com possibilidade de visualizar fotos e
 <img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/mvp_caso_uso.png?raw=true">
 </figure>
 
+<figure>
+<figcaption>Diagrama de Atividade</figcaption>
+<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/uml_atividade_doacao.png?raw=true">
+</figure>
+
 ## 6.1 Requisitos Funcionais
 |Nº|Nome|Descrição|
 |--|----|---------|
