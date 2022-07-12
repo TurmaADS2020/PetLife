@@ -7,7 +7,7 @@
 <figcaption>Painel MVP</figcaption>
 <img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/tela_de_experimento_mvp2.png?raw=true">
 </figure>
-Link para Editar Planilha: [https://docs.google.com/spreadsheets/d/1d8mFDrg4Dwg6w8EfSU8uRapiykhuyKwn155W-uglXF0/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1d8mFDrg4Dwg6w8EfSU8uRapiykhuyKwn155W-uglXF0/edit?usp=sharing)
+Link para Editar Planilha: https://docs.google.com/spreadsheets/d/1d8mFDrg4Dwg6w8EfSU8uRapiykhuyKwn155W-uglXF0/edit?usp=sharing
 
 ## 1. Seguimento dos Clientes
 Ongs que trabalham com adoção de animais.
