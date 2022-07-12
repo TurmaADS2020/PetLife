@@ -31,6 +31,10 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href='https://css.gg/terminal.css' rel='stylesheet'>
 
+  <!--Jquery mascarar cpf / cnpj-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -262,7 +266,7 @@
                       placeholder="Digite o seu nome completo" required>
                   </div>
                   <div class="col-md-5 form-group mt-3 mt-md-0">
-                    <input type="number" class="form-control" name="cpf_cnpj" id="cpf_cnpj"
+                    <input type="text" class="form-control cpfOuCnpj" name="cpf_cnpj" id="cpf_cnpj"
                       placeholder="Digite o seu CPF" required>
                   </div>
                 </div>
@@ -469,13 +473,11 @@
 
         <div class="row" data-aos="zoom-in">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.</p>
+            <h3>Entre em contato com a gente</h3>
+            <p> Entre em contato conosco e vamos tomar um café.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#">Entrar em contato</a>
           </div>
         </div>
 
@@ -546,10 +548,78 @@
 
           <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="400">
             <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="https://media-exp2.licdn.com/dms/image/C4D03AQE4V115lDl_TQ/profile-displayphoto-shrink_800_800/0/1623995108359?e=1663200000&v=beta&t=FRZD5dJohjwn7vXtt3eBw4jBxKgrQKpcr-v1QRlRFqg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <h4>André Meira</h4>
+                <span>Desenvolvedor FullStack</span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="https://media-exp2.licdn.com/dms/image/C5603AQEnU4mZ-o1i2w/profile-displayphoto-shrink_800_800/0/1517713036064?e=1663200000&v=beta&t=hib2KQINvHHxkeJ1FXcQakraBH-5kaGlSY0IYSXWnCE" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Fernando Aranha</h4>
+                <span>Analista de DBA</span>
+                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="./assets/img/team/team-5.jpeg" style="height:170px" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Adriano Santana Martins</h4>
+                <span>Desenvolvedor Back-End</span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="https://media-exp2.licdn.com/dms/image/C4E03AQENCB590lwYug/profile-displayphoto-shrink_800_800/0/1587144806672?e=1663200000&v=beta&t=2Z4oCmv01rE8izmRZGxWr5l6B00us7gtGevkHMWtCyw" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Almir Teodoro</h4>
+                <span>Gerente de Projetos</span>
+                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <div class="social">
+                  <a href=""><i class="ri-twitter-fill"></i></a>
+                  <a href=""><i class="ri-facebook-fill"></i></a>
+                  <a href=""><i class="ri-instagram-fill"></i></a>
+                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="./assets/img/team/team-5.jpeg" style="height:170px" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Adriano Santana Martins</h4>
+                <span>Desenvolvedor Back-End</span>
                 <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
@@ -750,11 +820,9 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./index.html">Pagina Inicial</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Adote um PET</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Equipe</a></li>
             </ul>
           </div>
 
@@ -770,21 +838,17 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+            <h4>Entre em contato com a gente</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Fatec - Faculdade de tecnologia <br>
+              ADS 2020<br>
             </p>
 
           </div>
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Anyar</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
-              darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <h3>Sobre nós</h3>
+            <p>Trabalho voltado para fins academicos.</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -803,14 +867,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Anyar</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        &copy; Fatec <strong><span>Senai</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -837,12 +894,17 @@
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script type="text/javascript">
 
-    $(document).ready(function(){
-      $("#cpf_cnpj").mask("000.000.000-99");
-    })
-    // $(document).ready(function(){
-    //   $("#cpf_cnpj").mask("999.999.999-99");
-    // });
+  
+    var options = {
+          onKeyPress: function (cpf, ev, el, op) {
+              var masks = ['000.000.000-000', '00.000.000/0000-00'];
+              $('.cpfOuCnpj').mask((cpf.length > 14) ? masks[1] : masks[0], op);
+          }
+      }
+
+      $('.cpfOuCnpj').length > 11 ? $('.cpfOuCnpj').mask('00.000.000/0000-00', options) : $('.cpfOuCnpj').mask('000.000.000-00#', options);
+
+    
   </script>
 </body>
 
