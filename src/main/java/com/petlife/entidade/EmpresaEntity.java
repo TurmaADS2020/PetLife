@@ -1,12 +1,12 @@
 package com.petlife.entidade;
 
+import java.time.LocalDate;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -25,12 +25,12 @@ public class EmpresaEntity {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name ="id_empresa")
-	private Long idempresa;
+	@Column(name ="idempresa")
+	private Long id;
 	
-	@ManyToOne
-	@JoinColumn(name = "endereco_idendereco")
-	private EnderecoEntity idEndereco;
+//	@ManyToOne
+//	@JoinColumn(name = "endereco_idendereco")
+//	private EnderecoEntity idEndereco;
 	
 	@Column(name ="ativo")
 	private Long ativo;
@@ -42,7 +42,10 @@ public class EmpresaEntity {
 	private String natureza;
 	
 	@Column(name ="cnpj")
-	private Long cnpj;
+	private String cnpj;
+	
+	@Column(name= "data_cadastro")
+	private LocalDate dataCadastro;
 			
 	@Column(name ="responsavel")
 	private String responsavel;
@@ -51,7 +54,31 @@ public class EmpresaEntity {
 	private String email;
 
 	@Column(name ="senha")
-	private Long senha;
+	private String senha;
+	
+	@Column(name = "telefone")
+	private Long telefone;
+	
+	@Column(name = "rua")
+	private String rua;
+	
+	@Column(name = "bairro")
+	private String bairro;
+	
+	@Column(name = "cidade")
+	private String cidade;
+	
+	@Column(name = "cep")
+	private String cep;
+	
+	@Column(name = "uf")
+	private String uf;
+	
+	@Column(name = "referencia")
+	private String referencia;
+	
+	@Column(name = "numero_empresa")
+	private Long numeroEmpresa;
 	
 }
 

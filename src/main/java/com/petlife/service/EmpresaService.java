@@ -30,20 +30,20 @@ public class EmpresaService {
 	@Autowired
 	private EmpresaMapper empresaMapper;
 
-	@Autowired
-	private EnderecoMapper enderecoMapper;
-	
-	@Autowired 
-	private ArquivoMapper arquivoMapper;
+//	@Autowired
+//	private EnderecoMapper enderecoMapper;
+//	
+//	@Autowired 
+//	private ArquivoMapper arquivoMapper;
 
-	@Transactional
-	public List<EmpresaDTO> listEmpresa1() {
+	
+	public List<EmpresaDTO> listEmpresa() {
 		
 		return this.empresaMapper.mapByListObj(empresaRepository.findAll());
 	}
 	
 	@Transactional
-	public EmpresaDTO finBydid1(Long id) throws Exception {
+	public EmpresaDTO finBydId(Long id) throws Exception {
 		Optional<EmpresaEntity> empresaEntity = existeEmpresa(id);
 		EmpresaEntity entity = empresaEntity.get();
 		
@@ -55,16 +55,25 @@ public class EmpresaService {
 	
 		EmpresaEntity entity = new EmpresaEntity();
 	
-		entity.setIdempresa(dto.getIdempresa());
+		entity.setId(dto.getId());
 		entity.setAtivo(dto.getAtivo());
 		entity.setNome(dto.getNome());
 		entity.setNatureza(dto.getNatureza());
 		entity.setCnpj(dto.getCnpj());
+		entity.setDataCadastro(dto.getDataCadastro());
 		entity.setResponsavel(dto.getResponsavel());
 		entity.setEmail(dto.getEmail());
 		entity.setSenha(dto.getSenha());
+		entity.setTelefone(dto.getTelefone());
+		entity.setRua(dto.getRua());
+		entity.setBairro(dto.getBairro());
+		entity.setCidade(dto.getCidade());
+		entity.setCep(dto.getCep());
+		entity.setUf(dto.getUf());
+		entity.setReferencia(dto.getReferencia());
+		entity.setNumeroEmpresa(dto.getNumeroEmpresa());
 		
-		return converterParaDTO(this.empresaRepository.save(entity));
+		return converterParaDTO(this.empresaRepository.saveAndFlush(entity));
 		
 }
 	
@@ -78,7 +87,7 @@ public class EmpresaService {
 				this.empresaRepository.deleteById(idempresa);
 			}
 		} catch (Exception e) {
-			log.error("<ERRO> empresaService.removerEmpresa(Long idempresa)" + e.getMessage());
+			log.error("<ERRO> empresaService.removerEmpresa(Long id)" + e.getMessage());
 			e.printStackTrace();
 		}
 	}
@@ -98,15 +107,15 @@ public class EmpresaService {
 	}
 
 
-	public List<EmpresaDTO> listEmpresa() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+//	public List<EmpresaDTO> listEmpresa() {
+//		// TODO Auto-generated method stub
+//		return null;
+//	}
 
 
-	public EmpresaDTO finBydid(Long idempresa) {
-		
-		return null;
-	}
+//	public EmpresaDTO finBydid(Long idempresa) {
+//		
+//		return null;
+//	}
 }	
 

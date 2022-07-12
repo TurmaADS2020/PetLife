@@ -1,5 +1,7 @@
 package com.petlife.dto;
 
+import java.time.LocalDate;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -15,16 +17,23 @@ import lombok.Setter;
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = false)
 @AllArgsConstructor
-
 public class EmpresaDTO {
-	private Long idempresa;
+	private Long id;
 	private Long ativo;
 	private String nome;
 	private String natureza;
-	private Long cnpj;
+	private String cnpj;
+	private LocalDate dataCadastro;
 	private String responsavel;
 	private String email;
-	private Long senha;
-	private Long endereco_idendereco; 
+	private String senha;
+	private Long telefone;
+	private String rua;
+	private String bairro;
+	private String cidade;
+	private String cep;
+	private String uf;
+	private String referencia;
+	private Long numeroEmpresa;
 
 }

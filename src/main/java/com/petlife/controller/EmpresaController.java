@@ -40,7 +40,7 @@ public class EmpresaController {
 	
 	@GetMapping(value = {"/{Idempresa}"})
 	public ResponseEntity<EmpresaDTO> buscarEmpresa(@PathVariable("Idempresa")Long idempresa) throws Exception{ 
-		EmpresaDTO buscar = this.empresaService.finBydid(idempresa);
+		EmpresaDTO buscar = this.empresaService.finBydId(idempresa);
 	return ResponseEntity.ok().body(buscar);
 }
 
@@ -52,7 +52,7 @@ public class EmpresaController {
 	
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	@DeleteMapping("/{idempresa}")
-	public void remover(@PathVariable Long idempresa) throws Exception {
-		empresaService.removerEmpresa(idempresa);
+	public void remover(@PathVariable Long idEmpresa) throws Exception {
+		empresaService.removerEmpresa(idEmpresa);
 	}
 }
