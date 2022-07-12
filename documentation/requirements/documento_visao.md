@@ -36,14 +36,15 @@ A aplicação deve persistir dados cadastrados pelos usuários e logs gerados pe
 |Nº|Nome|Descrição|
 |--|----|---------|
 |RF001|Manter Cadastros Usuários |Os usuários poderão incluir, visualizar e alterar suas informações.|
-|RF002|Recuperação de Senha|Os usuários poderão realizar recuperação de senha.|
-|RF003|Cancelar cadastro|Os usuários poderão cancelar o cadastro sempre que desejarem|
-|RF004|Inclusão de Pet|Usuários do tipo ONG's poderão incluir, visualizar e alterar informações de pet.|
-|RF005|Desativar Visualização de Pet|Usuários do tipo ONG's poderão a qualquer momento desativar a visualização de algum animal sempre que desejarem e deverão informar o motivo.|
-|RF006|Localizar Animais|Usuários cadastrados ou não poderão localizar animais disponiveis para adoção, mas só os usuários cadastrados poderão ter acesso ao botão de "entrar em contato".|
-|RF007|Apresentar Resultados|A tela principal da aplicação apresentará o total de "Animais doados" e "Animais disponíveis"|
-|RF008|Curtir animais|Usuários poderão clicar em icone "Coração" mostrando interesse pelo pet.|
-|RF009|Visualizar slider de Imagens|Usuários ao clicar na imagem apresentada na pesquisa visualizará um Slider com mais imagens do Pet em questão.|
+|RF002|Realizar Login|Os usuários cadastrados poderam realizar Login.|
+|RF003|Recuperar Senha|Os usuários poderão realizar recuperação de senha.|
+|RF004|Cancelar cadastro|Os usuários poderão cancelar o cadastro sempre que desejarem|
+|RF005|Inclusão de Pet|Usuários do tipo ONG's poderão incluir, visualizar e alterar informações de pet.|
+|RF006|Desativar Visualização de Pet|Usuários do tipo ONG's poderão a qualquer momento desativar a visualização de algum animal sempre que desejarem e deverão informar o motivo.|
+|RF007|Localizar Animais|Usuários cadastrados ou não poderão localizar animais disponiveis para adoção, mas só os usuários cadastrados poderão ter acesso ao botão de "entrar em contato".|
+|RF008|Apresentar Resultados|A tela principal da aplicação apresentará o total de "Animais doados" e "Animais disponíveis"|
+|RF009|Curtir animais|Usuários poderão clicar em icone "Coração" mostrando interesse pelo pet.|
+|RF010|Visualizar slider de Imagens|Usuários ao clicar na imagem apresentada na pesquisa visualizará um Slider com mais imagens do Pet em questão.|
 
 ## 6.2 Requisitos Não Funcionais
 |Nº|Nome|Descrição|

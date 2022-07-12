@@ -109,30 +109,20 @@ async function gerarObjecto() {
     // var complemento = document.getElementById("complemento").value;
     // var aceitatermos = document.getElementById("aceitatermos").value;
     var senhausuario = document.getElementById("senhausuario").value;
-
     let novocliente = {
-        "endereco": {
-            "idEndereco": 1,
-            "logradouro": rua, //tirar depois
-            "nome": rua,
-            "numero": numeroimovel,
-            "bairro": bairro,
-            "cidade": cidade,
-            "uf": uf,
-            "cep": cep,
-            "referencia": referencia
-        },
-        "arquivo": {
-            "id": 1 //tirar depois
-        },
         "ativo": 1,
         "cpf": cpf_cnpj,
-        "dataCadastro": "2018-05-22",
+        "dataCadastro": '2022-06-22',
         "nome": nomecliente,
         "email": email,
+        "senha": senhausuario,
         "telefone": telefone,
-        //"validador": aceitatermos,
-        "senha": senhausuario
+        "rua": rua,
+        "bairro": bairro,
+        "cidade": cidade,
+        "cep": cep,
+        "uf": "MT",
+        "referencia": referencia
     }
     console.log(novocliente);
 
