@@ -30,7 +30,7 @@ Projeto Principal MVP: Catálogo virtual com possibilidade de visualizar fotos e
 
 <figure>
 <figcaption>Diagrama de Caso de Uso</figcaption>
-<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/mvp_caso_uso.png?raw=true">
+<img src="https://github.com/TurmaADS2020/PetLife/blob/main/documentation/images/attachment/mvp_caso_uso1.png?raw=true">
 </figure>
 
 <figure>
